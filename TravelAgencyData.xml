@@ -1,0 +1,1044 @@
+<Travel_Agency_Data xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="TravelAgencyData.xsd">
+	<Client_Data>
+		<Personal_Information>
+			<Client id='21500'>
+				<FirstName>Brian</FirstName>
+				<LastName>Whittaker</LastName>
+				<Dateofbirth>1974-02-08</Dateofbirth>
+				<Nationality>British</Nationality>
+				<Age>48</Age>
+				<Gender>Male</Gender>
+				<Country>France</Country>
+				<State>Auvergne-Rhône-Alpes</State>
+				<City>Lyon</City>
+				<Address>108 Rue de Menilmontant</Address>
+				<Zipcode>69005</Zipcode>
+				<PhoneNumber>086-655-2638</PhoneNumber>
+				<EmailID>brian.whittaker@outlook.com</EmailID>
+				<Comments>British National living in France with dual citizenship</Comments>
+			</Client>
+		</Personal_Information>
+		<Booking_Information>
+			<Booking id='Ref-0100'/>
+			<Promo_Offer>true</Promo_Offer>
+			<Contract_signed>true</Contract_signed>
+			<Payment_details>Credit card
+				<Card_Brand>Unionpay</Card_Brand>
+				<Card_Number>6256421728425451</Card_Number>
+				<Amount_Paid currency='euros'>131.651</Amount_Paid>
+			</Payment_details>
+			<Additional_Info>
+				<Solo_Travel>false</Solo_Travel>
+				<Family_Travel>true
+					<No_of_Families>2</No_of_Families>
+					<Adult_Members>4</Adult_Members>
+					<Below12_Members>3</Below12_Members>
+					<Above60_Members>1</Above60_Members>
+				</Family_Travel>
+			</Additional_Info>
+		</Booking_Information>
+		<Tour_Information>
+			<Tour id='2149'>
+				<Tour_Category>Domestic</Tour_Category>
+				<Tour_Type>BeachTourism</Tour_Type>
+				<Tour_City>Marseille</Tour_City>
+				<Tour_Country>France</Tour_Country>
+				<Tour_Price currency='euros'>335.750</Tour_Price>
+				<Tour_Activities>Scubadiving, Surfing, Paragliding</Tour_Activities>
+				<Tour_Details>5 days &amp; 6 nights</Tour_Details>
+			</Tour>
+		</Tour_Information>
+		<Accommodation_Information>
+			<Hotel id='FD2B'/>
+			<Hotel_Name>Seascape Hotel</Hotel_Name>
+			<Hotel_City>Marseille</Hotel_City>
+			<Hotel_Country>France</Hotel_Country>
+			<Hotel_Address>35 Rue Turenne</Hotel_Address>
+			<Hotel_Zipcode>13011</Hotel_Zipcode>
+			<Hotel_RoomType>Deluxe</Hotel_RoomType>
+			<No_of_Rooms>3</No_of_Rooms>
+			<Hotel_Services>
+				<Meals_Included>Breakfast</Meals_Included>
+				<Gym_Included>true</Gym_Included>
+				<Spa_Included>false</Spa_Included>
+				<Events_Included>false</Events_Included>
+			</Hotel_Services>
+		</Accommodation_Information>
+		<Transport_Information>
+			<Flight_Info>
+				<FlightID>AFF377459C8C</FlightID>
+				<From_City>Lyon</From_City>
+				<To_City>Marseille</To_City>
+				<Connection>false</Connection>
+				<C_FlightID>not applicable</C_FlightID>
+				<C_From_City>not applicable</C_From_City>
+				<C_To_City>not applicable</C_To_City>
+				<AirlineName>RyanAir</AirlineName>
+			</Flight_Info>
+			<RentalCar>
+				<RentalType>Fullsize</RentalType>
+				<Brand>Chevrolet</Brand>
+				<Model>Impala</Model>
+				<Seating>10</Seating>
+				<Duration>5 days</Duration>
+			</RentalCar>
+		</Transport_Information>
+	</Client_Data>
+	<Client_Data>
+		<Personal_Information>
+			<Client id='215001'>
+				<FirstName>Annika</FirstName>
+				<LastName>Terrel</LastName>
+				<Dateofbirth>1985-09-21</Dateofbirth>
+				<Nationality>French</Nationality>
+				<Age>36</Age>
+				<Gender>Female</Gender>
+				<Country>France</Country>
+				<State>Rhône</State>
+				<City>Caluire-et-Cuire</City>
+				<Address>10 Chemin Jean Petit</Address>
+				<Zipcode>69300</Zipcode>
+				<PhoneNumber>029-863-5110</PhoneNumber>
+				<EmailID>terrel.annika@gmail.com</EmailID>
+				<Comments>No additional comments</Comments>
+			</Client>
+		</Personal_Information>
+		<Booking_Information>
+			<Booking id='Ref-0101'/>
+			<Promo_Offer>false</Promo_Offer>
+			<Contract_signed>true</Contract_signed>
+			<Payment_details>Credit card
+
+				<Card_Brand>Mastercard</Card_Brand>
+				<Card_Number>2149822516049850</Card_Number>
+				<Amount_Paid currency='euros'>243.996</Amount_Paid>
+			</Payment_details>
+			<Additional_Info>
+				<Solo_Travel>false</Solo_Travel>
+				<Family_Travel>true
+
+					<No_of_Families>5</No_of_Families>
+					<Adult_Members>8</Adult_Members>
+					<Below12_Members>0</Below12_Members>
+					<Above60_Members>2</Above60_Members>
+				</Family_Travel>
+			</Additional_Info>
+		</Booking_Information>
+		<Tour_Information>
+			<Tour id='6304'>
+				<Tour_Category>International</Tour_Category>
+				<Tour_Type>CulturalTourism</Tour_Type>
+				<Tour_City>Bogota</Tour_City>
+				<Tour_Country>Colombia</Tour_Country>
+				<Tour_Price currency='euros'>587.900</Tour_Price>
+				<Tour_Activities>Walking Tour, Sightseeing, Museum visit</Tour_Activities>
+				<Tour_Details>7 days &amp; 6 nights</Tour_Details>
+			</Tour>
+		</Tour_Information>
+		<Accommodation_Information>
+			<Hotel id='3D09'/>
+			<Hotel_Name>Atlantis Pyramid Resort</Hotel_Name>
+			<Hotel_City>Bogota</Hotel_City>
+			<Hotel_Country>Colombia</Hotel_Country>
+			<Hotel_Address>Av Miguel Aleman 232</Hotel_Address>
+			<Hotel_Zipcode>110151</Hotel_Zipcode>
+			<Hotel_RoomType>Double Room</Hotel_RoomType>
+			<No_of_Rooms>5</No_of_Rooms>
+			<Hotel_Services>
+				<Meals_Included>Breakfast &amp; Weekend Buffet </Meals_Included>
+				<Gym_Included>false</Gym_Included>
+				<Spa_Included>false</Spa_Included>
+				<Events_Included>true</Events_Included>
+			</Hotel_Services>
+		</Accommodation_Information>
+		<Transport_Information>
+			<Flight_Info>
+				<FlightID>LV32XIEX13432</FlightID>
+				<From_City>Paris</From_City>
+				<To_City>NewYork</To_City>
+				<Connection>true</Connection>
+				<C_FlightID>NO146887643</C_FlightID>
+				<C_From_City>NewYork</C_From_City>
+				<C_To_City>Bogota</C_To_City>
+				<AirlineName>AmericanAirlines</AirlineName>
+			</Flight_Info>
+			<RentalCar>
+				<RentalType>Minivan</RentalType>
+				<Brand>Kia</Brand>
+				<Model>Sedona</Model>
+				<Seating>16</Seating>
+				<Duration>7 days</Duration>
+			</RentalCar>
+		</Transport_Information>
+	</Client_Data>
+	<Client_Data>
+		<Personal_Information>
+			<Client id='215002'>
+				<FirstName>Jason</FirstName>
+				<LastName>Smith</LastName>
+				<Dateofbirth>1967-11-12</Dateofbirth>
+				<Nationality>British</Nationality>
+				<Age>55</Age>
+				<Gender>Male</Gender>
+				<Country>France</Country>
+				<State>Savoie</State>
+				<City>Aix-les-Bains</City>
+				<Address>1 Avenue Charles de Gaulle</Address>
+				<Zipcode>73100</Zipcode>
+				<PhoneNumber>047-961-6010</PhoneNumber>
+				<EmailID>j.smith@outlook.com</EmailID>
+				<Comments>British Passport holder living in France</Comments>
+			</Client>
+		</Personal_Information>
+		<Booking_Information>
+			<Booking id='Ref-0102'/>
+			<Promo_Offer>true</Promo_Offer>
+			<Contract_signed>true</Contract_signed>
+			<Payment_details>Credit card
+
+				<Card_Brand>Voyager</Card_Brand>
+				<Card_Number>8699641189618051</Card_Number>
+				<Amount_Paid currency='euros'>150.325</Amount_Paid>
+			</Payment_details>
+			<Additional_Info>
+				<Solo_Travel>false</Solo_Travel>
+				<Family_Travel>true
+
+					<No_of_Families>1</No_of_Families>
+					<Adult_Members>2</Adult_Members>
+					<Below12_Members>0</Below12_Members>
+					<Above60_Members>0</Above60_Members>
+				</Family_Travel>
+			</Additional_Info>
+		</Booking_Information>
+		<Tour_Information>
+			<Tour id='3278'>
+				<Tour_Category>International</Tour_Category>
+				<Tour_Type>EcoTourism</Tour_Type>
+				<Tour_City>Tromso</Tour_City>
+				<Tour_Country>Norway</Tour_Country>
+				<Tour_Price currency='euros'>405.880</Tour_Price>
+				<Tour_Activities>Northern Lights viewing, Arctic visit,Hiking</Tour_Activities>
+				<Tour_Details>4 days &amp; 5 nights</Tour_Details>
+			</Tour>
+		</Tour_Information>
+		<Accommodation_Information>
+			<Hotel id='BG06'/>
+			<Hotel_Name>Majestic Mantle Hotel</Hotel_Name>
+			<Hotel_City>Tromso</Hotel_City>
+			<Hotel_Country>Norway</Hotel_Country>
+			<Hotel_Address>A Odhners gata 43</Hotel_Address>
+			<Hotel_Zipcode>9021</Hotel_Zipcode>
+			<Hotel_RoomType>Suite</Hotel_RoomType>
+			<No_of_Rooms>1</No_of_Rooms>
+			<Hotel_Services>
+				<Meals_Included>Breakfast,Lunch &amp; Dinner </Meals_Included>
+				<Gym_Included>true</Gym_Included>
+				<Spa_Included>true</Spa_Included>
+				<Events_Included>false</Events_Included>
+			</Hotel_Services>
+		</Accommodation_Information>
+		<Transport_Information>
+			<Flight_Info>
+				<FlightID>VG474172985</FlightID>
+				<From_City>Nice</From_City>
+				<To_City>Stockholm</To_City>
+				<Connection>true</Connection>
+				<C_FlightID>FI93132175</C_FlightID>
+				<C_From_City>Stockholm</C_From_City>
+				<C_To_City>Oslo</C_To_City>
+				<AirlineName>Lufthansa Airlines</AirlineName>
+			</Flight_Info>
+			<RentalCar>
+				<RentalType>Premium</RentalType>
+				<Brand>Ford</Brand>
+				<Model>Crown</Model>
+				<Seating>6</Seating>
+				<Duration>5 days</Duration>
+			</RentalCar>
+		</Transport_Information>
+	</Client_Data>
+	<Client_Data>
+		<Personal_Information>
+			<Client id='215003'>
+				<FirstName>Julie</FirstName>
+				<LastName>Copeland</LastName>
+				<Dateofbirth>1992-04-15</Dateofbirth>
+				<Nationality>Belgian</Nationality>
+				<Age>29</Age>
+				<Gender>Female</Gender>
+				<Country>France</Country>
+				<State>Nord</State>
+				<City>Lille</City>
+				<Address>30 Place Sebastopol</Address>
+				<Zipcode>59000</Zipcode>
+				<PhoneNumber>073-391-2162</PhoneNumber>
+				<EmailID>Juli_c92@yahoo.com</EmailID>
+				<Comments>Belgian Passport holder living in France</Comments>
+			</Client>
+		</Personal_Information>
+		<Booking_Information>
+			<Booking id='Ref-0103'/>
+			<Promo_Offer>true</Promo_Offer>
+			<Contract_signed>true</Contract_signed>
+			<Payment_details>Credit card
+
+				<Card_Brand>AmericanExpress</Card_Brand>
+				<Card_Number>3549116202861338</Card_Number>
+				<Amount_Paid currency='euros'>183.489</Amount_Paid>
+			</Payment_details>
+			<Additional_Info>
+				<Solo_Travel>true</Solo_Travel>
+				<Family_Travel>false
+
+					<No_of_Families>0</No_of_Families>
+					<Adult_Members>0</Adult_Members>
+					<Below12_Members>0</Below12_Members>
+					<Above60_Members>0</Above60_Members>
+				</Family_Travel>
+			</Additional_Info>
+		</Booking_Information>
+		<Tour_Information>
+			<Tour id='2641'>
+				<Tour_Category>Domestic</Tour_Category>
+				<Tour_Type>AdventureTourism</Tour_Type>
+				<Tour_City>Grenoble</Tour_City>
+				<Tour_Country>France</Tour_Country>
+				<Tour_Price currency='euros'>267.840</Tour_Price>
+				<Tour_Activities>Via Ferreta, Mountain Climbing, Canyoning </Tour_Activities>
+				<Tour_Details>3 days &amp; 2 nights</Tour_Details>
+			</Tour>
+		</Tour_Information>
+		<Accommodation_Information>
+			<Hotel id='HP7C'/>
+			<Hotel_Name>Pristine Hotel</Hotel_Name>
+			<Hotel_City>Grenoble</Hotel_City>
+			<Hotel_Country>France</Hotel_Country>
+			<Hotel_Address>10 Boulevard Gambetta</Hotel_Address>
+			<Hotel_Zipcode>38000</Hotel_Zipcode>
+			<Hotel_RoomType>Single</Hotel_RoomType>
+			<No_of_Rooms>1</No_of_Rooms>
+			<Hotel_Services>
+				<Meals_Included>Breakfast</Meals_Included>
+				<Gym_Included>true</Gym_Included>
+				<Spa_Included>false</Spa_Included>
+				<Events_Included>false</Events_Included>
+			</Hotel_Services>
+		</Accommodation_Information>
+		<Transport_Information>
+			<Flight_Info>
+				<FlightID>GL311964183</FlightID>
+				<From_City>Lille</From_City>
+				<To_City>Lyon</To_City>
+				<Connection>false</Connection>
+				<C_FlightID>not applicable</C_FlightID>
+				<C_From_City>not applicable</C_From_City>
+				<C_To_City>not applicable</C_To_City>
+				<AirlineName>EasyJet</AirlineName>
+			</Flight_Info>
+			<RentalCar>
+				<RentalType>Economy</RentalType>
+				<Brand>Hyundai</Brand>
+				<Model>Accent</Model>
+				<Seating>4</Seating>
+				<Duration>2 days</Duration>
+			</RentalCar>
+		</Transport_Information>
+	</Client_Data>
+	<Client_Data>
+		<Personal_Information>
+			<Client id='215004'>
+				<FirstName>Sally</FirstName>
+				<LastName>Wright</LastName>
+				<Dateofbirth>1977-03-18</Dateofbirth>
+				<Nationality>British</Nationality>
+				<Age>45</Age>
+				<Gender>Female</Gender>
+				<Country>France</Country>
+				<State>Seine-Maritime</State>
+				<City>Rouen</City>
+				<Address>6 Rue du Lion d'Or</Address>
+				<Zipcode>76000</Zipcode>
+				<PhoneNumber>046-865-8976</PhoneNumber>
+				<EmailID>s.wright@outlook.com</EmailID>
+				<Comments>British Passport holder living in France</Comments>
+			</Client>
+		</Personal_Information>
+		<Booking_Information>
+			<Booking id='Ref-0104'/>
+			<Promo_Offer>false</Promo_Offer>
+			<Contract_signed>true</Contract_signed>
+			<Payment_details>Credit card
+
+				<Card_Brand>Visa</Card_Brand>
+				<Card_Number>4532649361045399</Card_Number>
+				<Amount_Paid currency='euros'>192.141</Amount_Paid>
+			</Payment_details>
+			<Additional_Info>
+				<Solo_Travel>false</Solo_Travel>
+				<Family_Travel>true
+
+					<No_of_Families>3</No_of_Families>
+					<Adult_Members>5</Adult_Members>
+					<Below12_Members>2</Below12_Members>
+					<Above60_Members>4</Above60_Members>
+				</Family_Travel>
+			</Additional_Info>
+		</Booking_Information>
+		<Tour_Information>
+			<Tour id='6418'>
+				<Tour_Category>International</Tour_Category>
+				<Tour_Type>CulturalTourism</Tour_Type>
+				<Tour_City>Mumbai</Tour_City>
+				<Tour_Country>India</Tour_Country>
+				<Tour_Price currency='euros'>890.345</Tour_Price>
+				<Tour_Activities>Sightseeing, Museum Visit, Food Tour</Tour_Activities>
+				<Tour_Details>7 days &amp; 8 nights</Tour_Details>
+			</Tour>
+		</Tour_Information>
+		<Accommodation_Information>
+			<Hotel id='KW28'/>
+			<Hotel_Name>Best Exotic Marigold Hotel</Hotel_Name>
+			<Hotel_City>Mumbai</Hotel_City>
+			<Hotel_Country>India</Hotel_Country>
+			<Hotel_Address>42 Carter Road</Hotel_Address>
+			<Hotel_Zipcode>40050</Hotel_Zipcode>
+			<Hotel_RoomType>Queen</Hotel_RoomType>
+			<No_of_Rooms>4</No_of_Rooms>
+			<Hotel_Services>
+				<Meals_Included>Breakfast&amp; Dinner </Meals_Included>
+				<Gym_Included>true</Gym_Included>
+				<Spa_Included>true</Spa_Included>
+				<Events_Included>true</Events_Included>
+			</Hotel_Services>
+		</Accommodation_Information>
+		<Transport_Information>
+			<Flight_Info>
+				<FlightID>BH58567733613</FlightID>
+				<From_City>Paris</From_City>
+				<To_City>Dubai</To_City>
+				<Connection>true</Connection>
+				<C_FlightID>DE87268526222</C_FlightID>
+				<C_From_City>Dubai</C_From_City>
+				<C_To_City>Mumbai</C_To_City>
+				<AirlineName>AirIndia</AirlineName>
+			</Flight_Info>
+			<RentalCar>
+				<RentalType>Fullsizevan</RentalType>
+				<Brand>Chevrolet</Brand>
+				<Model>Express</Model>
+				<Seating>12</Seating>
+				<Duration>7 days</Duration>
+			</RentalCar>
+		</Transport_Information>
+	</Client_Data>
+	<Client_Data>
+		<Personal_Information>
+			<Client id='215005'>
+				<FirstName>Candice</FirstName>
+				<LastName>Stanton</LastName>
+				<Dateofbirth>1990-03-09</Dateofbirth>
+				<Nationality>Dutch</Nationality>
+				<Age>32</Age>
+				<Gender>Female</Gender>
+				<Country>France</Country>
+				<State>Val-de-Marne</State>
+				<City>Fontenay-sous-Bois</City>
+				<Address>25 Place Moreau David</Address>
+				<Zipcode>94120</Zipcode>
+				<PhoneNumber>084-161-5874</PhoneNumber>
+				<EmailID>s.candice@gmail.com</EmailID>
+				<Comments>Dutch Passport holder living in France</Comments>
+			</Client>
+		</Personal_Information>
+		<Booking_Information>
+			<Booking id='Ref-0105'/>
+			<Promo_Offer>true</Promo_Offer>
+			<Contract_signed>true</Contract_signed>
+			<Payment_details>Credit card
+
+				<Card_Brand>Mastercard</Card_Brand>
+				<Card_Number>5537094026953947</Card_Number>
+				<Amount_Paid currency='euros'>176.127</Amount_Paid>
+			</Payment_details>
+			<Additional_Info>
+				<Solo_Travel>false</Solo_Travel>
+				<Family_Travel>true
+
+					<No_of_Families>1</No_of_Families>
+					<Adult_Members>2</Adult_Members>
+					<Below12_Members>2</Below12_Members>
+					<Above60_Members>0</Above60_Members>
+				</Family_Travel>
+			</Additional_Info>
+		</Booking_Information>
+		<Tour_Information>
+			<Tour id='7654'>
+				<Tour_Category>International</Tour_Category>
+				<Tour_Type>BeachTourism</Tour_Type>
+				<Tour_City>Bangkok</Tour_City>
+				<Tour_Country>Thailand</Tour_Country>
+				<Tour_Price currency='euros'>567.125</Tour_Price>
+				<Tour_Activities>Island Hopping, Scubadiving, Cave kayaking</Tour_Activities>
+				<Tour_Details>10 days &amp; 11 nights</Tour_Details>
+			</Tour>
+		</Tour_Information>
+		<Accommodation_Information>
+			<Hotel id='NM7J'/>
+			<Hotel_Name>Sapphire Treasure Resort</Hotel_Name>
+			<Hotel_City>Bangkok</Hotel_City>
+			<Hotel_Country>Thailand</Hotel_Country>
+			<Hotel_Address>106 North Sathorn Road</Hotel_Address>
+			<Hotel_Zipcode>10500</Hotel_Zipcode>
+			<Hotel_RoomType>Deluxe</Hotel_RoomType>
+			<No_of_Rooms>2</No_of_Rooms>
+			<Hotel_Services>
+				<Meals_Included>Breakfast</Meals_Included>
+				<Gym_Included>true</Gym_Included>
+				<Spa_Included>true</Spa_Included>
+				<Events_Included>true</Events_Included>
+			</Hotel_Services>
+		</Accommodation_Information>
+		<Transport_Information>
+			<Flight_Info>
+				<FlightID>AD092757318179</FlightID>
+				<From_City>Lyon</From_City>
+				<To_City>Abu Dhabi</To_City>
+				<Connection>true</Connection>
+				<C_FlightID>AE703838886532</C_FlightID>
+				<C_From_City>Abu Dhabi</C_From_City>
+				<C_To_City>Bangkok</C_To_City>
+				<AirlineName>Emirates</AirlineName>
+			</Flight_Info>
+			<RentalCar>
+				<RentalType>SUV</RentalType>
+				<Brand>Toyota</Brand>
+				<Model>Corolla</Model>
+				<Seating>6</Seating>
+				<Duration>10 days</Duration>
+			</RentalCar>
+		</Transport_Information>
+	</Client_Data>
+	<Client_Data>
+		<Personal_Information>
+			<Client id='215006'>
+				<FirstName>Bernard</FirstName>
+				<LastName>Parks</LastName>
+				<Dateofbirth>1975-05-20</Dateofbirth>
+				<Nationality>French</Nationality>
+				<Age>47</Age>
+				<Gender>Male</Gender>
+				<Country>France</Country>
+				<State>Haut-Rhin</State>
+				<City>Colmar</City>
+				<Address>33 Route de Strasbourg</Address>
+				<Zipcode>68000</Zipcode>
+				<PhoneNumber>089-170-5226</PhoneNumber>
+				<EmailID>natpark.b@yahoo.com</EmailID>
+				<Comments>No additional comments</Comments>
+			</Client>
+		</Personal_Information>
+		<Booking_Information>
+			<Booking id='Ref-0106'/>
+			<Promo_Offer>true</Promo_Offer>
+			<Contract_signed>true</Contract_signed>
+			<Payment_details>Credit card
+
+				<Card_Brand>Voyager</Card_Brand>
+				<Card_Number>8699989102866426</Card_Number>
+				<Amount_Paid currency='euros'>156.716</Amount_Paid>
+			</Payment_details>
+			<Additional_Info>
+				<Solo_Travel>true</Solo_Travel>
+				<Family_Travel>false
+
+					<No_of_Families>0</No_of_Families>
+					<Adult_Members>0</Adult_Members>
+					<Below12_Members>0</Below12_Members>
+					<Above60_Members>0</Above60_Members>
+				</Family_Travel>
+			</Additional_Info>
+		</Booking_Information>
+		<Tour_Information>
+			<Tour id='5983'>
+				<Tour_Category>Domestic</Tour_Category>
+				<Tour_Type>BeachTourism</Tour_Type>
+				<Tour_City>Bastia</Tour_City>
+				<Tour_Country>France</Tour_Country>
+				<Tour_Price currency='euros'>323.450</Tour_Price>
+				<Tour_Activities>Sightseeing, Diving, Swimming</Tour_Activities>
+				<Tour_Details>7 days &amp; 6 nights</Tour_Details>
+			</Tour>
+		</Tour_Information>
+		<Accommodation_Information>
+			<Hotel id='BN7K'/>
+			<Hotel_Name>Emerald Peninsula Hotel</Hotel_Name>
+			<Hotel_City>Bastia</Hotel_City>
+			<Hotel_Country>France</Hotel_Country>
+			<Hotel_Address>Route d'Ortale</Hotel_Address>
+			<Hotel_Zipcode>20600</Hotel_Zipcode>
+			<Hotel_RoomType>Single</Hotel_RoomType>
+			<No_of_Rooms>1</No_of_Rooms>
+			<Hotel_Services>
+				<Meals_Included>Breakfast, Lunch &amp; Dinner</Meals_Included>
+				<Gym_Included>true</Gym_Included>
+				<Spa_Included>true</Spa_Included>
+				<Events_Included>false</Events_Included>
+			</Hotel_Services>
+		</Accommodation_Information>
+		<Transport_Information>
+			<Flight_Info>
+				<FlightID>MC916363716274</FlightID>
+				<From_City>Strasbourg</From_City>
+				<To_City>Bastia</To_City>
+				<Connection>false</Connection>
+				<C_FlightID>not applicable</C_FlightID>
+				<C_From_City>not applicable</C_From_City>
+				<C_To_City>not applicable</C_To_City>
+				<AirlineName>GoAir</AirlineName>
+			</Flight_Info>
+			<RentalCar>
+				<RentalType>Compact</RentalType>
+				<Brand>Nissin</Brand>
+				<Model>Versa</Model>
+				<Seating>4</Seating>
+				<Duration>6 days</Duration>
+			</RentalCar>
+		</Transport_Information>
+	</Client_Data>
+	<Client_Data>
+		<Personal_Information>
+			<Client id='215007'>
+				<FirstName>Sasha</FirstName>
+				<LastName>Bradley</LastName>
+				<Dateofbirth>1984-10-17</Dateofbirth>
+				<Nationality>French</Nationality>
+				<Age>39</Age>
+				<Gender>Female</Gender>
+				<Country>France</Country>
+				<State>Bas-Rhin</State>
+				<City>Strasbourg</City>
+				<Address>7 Rue Finkmatt</Address>
+				<Zipcode>67000</Zipcode>
+				<PhoneNumber>038-815-2788</PhoneNumber>
+				<EmailID>b.sasha@gmail.com</EmailID>
+				<Comments>No additional comments</Comments>
+			</Client>
+		</Personal_Information>
+		<Booking_Information>
+			<Booking id='Ref-0107'/>
+			<Promo_Offer>true</Promo_Offer>
+			<Contract_signed>true</Contract_signed>
+			<Payment_details>Credit card
+
+				<Card_Brand>American Express</Card_Brand>
+				<Card_Number>6269153980813067</Card_Number>
+				<Amount_Paid currency='euros'>205.815</Amount_Paid>
+			</Payment_details>
+			<Additional_Info>
+				<Solo_Travel>false</Solo_Travel>
+				<Family_Travel>true
+
+					<No_of_Families>2</No_of_Families>
+					<Adult_Members>4</Adult_Members>
+					<Below12_Members>3</Below12_Members>
+					<Above60_Members>0</Above60_Members>
+				</Family_Travel>
+			</Additional_Info>
+		</Booking_Information>
+		<Tour_Information>
+			<Tour id='9712'>
+				<Tour_Category>International</Tour_Category>
+				<Tour_Type>CulturalTourism</Tour_Type>
+				<Tour_City>Seoul</Tour_City>
+				<Tour_Country>South Korea</Tour_Country>
+				<Tour_Price currency='euros'>545.725</Tour_Price>
+				<Tour_Activities>Sightseeing, Private Hiking, Street Food Tour</Tour_Activities>
+				<Tour_Details>6 days &amp; 7 nights</Tour_Details>
+			</Tour>
+		</Tour_Information>
+		<Accommodation_Information>
+			<Hotel id='KS4M'/>
+			<Hotel_Name>Radiance Hotel</Hotel_Name>
+			<Hotel_City>Seoul</Hotel_City>
+			<Hotel_Country>South Korea</Hotel_Country>
+			<Hotel_Address>16 Myeong-dong</Hotel_Address>
+			<Hotel_Zipcode>100101</Hotel_Zipcode>
+			<Hotel_RoomType>Deluxe</Hotel_RoomType>
+			<No_of_Rooms>3</No_of_Rooms>
+			<Hotel_Services>
+				<Meals_Included>Breakfast</Meals_Included>
+				<Gym_Included>true</Gym_Included>
+				<Spa_Included>false</Spa_Included>
+				<Events_Included>true</Events_Included>
+			</Hotel_Services>
+		</Accommodation_Information>
+		<Transport_Information>
+			<Flight_Info>
+				<FlightID>TR817526598937</FlightID>
+				<From_City>Paris</From_City>
+				<To_City>Moscow</To_City>
+				<Connection>true</Connection>
+				<C_FlightID>SA12166626756127</C_FlightID>
+				<C_From_City>Moscow</C_From_City>
+				<C_To_City>Seoul</C_To_City>
+				<AirlineName>Etihad Airlines</AirlineName>
+			</Flight_Info>
+			<RentalCar>
+				<RentalType>Premium</RentalType>
+				<Brand>Ford</Brand>
+				<Model>Taurus</Model>
+				<Seating>10</Seating>
+				<Duration>6 days</Duration>
+			</RentalCar>
+		</Transport_Information>
+	</Client_Data>
+	<Client_Data>
+		<Personal_Information>
+			<Client id='215008'>
+				<FirstName>Christine</FirstName>
+				<LastName>Pollock</LastName>
+				<Dateofbirth>1965-08-30</Dateofbirth>
+				<Nationality>Dutch</Nationality>
+				<Age>57</Age>
+				<Gender>Female</Gender>
+				<Country>France</Country>
+				<State>Haute-Vienne</State>
+				<City>Limoges</City>
+				<Address>79 Avenue Louis Armand</Address>
+				<Zipcode>87000</Zipcode>
+				<PhoneNumber>055-504-4848</PhoneNumber>
+				<EmailID>pollock.c@gmail.com</EmailID>
+				<Comments>Dutch Passport holder living in France</Comments>
+			</Client>
+		</Personal_Information>
+		<Booking_Information>
+			<Booking id='Ref-0108'/>
+			<Promo_Offer>true</Promo_Offer>
+			<Contract_signed>true</Contract_signed>
+			<Payment_details>Credit card
+
+				<Card_Brand>Visa</Card_Brand>
+				<Card_Number>3003163500848053</Card_Number>
+				<Amount_Paid currency='euros'>116.980</Amount_Paid>
+			</Payment_details>
+			<Additional_Info>
+				<Solo_Travel>false</Solo_Travel>
+				<Family_Travel>true
+
+					<No_of_Families>1</No_of_Families>
+					<Adult_Members>2</Adult_Members>
+					<Below12_Members>0</Below12_Members>
+					<Above60_Members>0</Above60_Members>
+				</Family_Travel>
+			</Additional_Info>
+		</Booking_Information>
+		<Tour_Information>
+			<Tour id='8765'>
+				<Tour_Category>International</Tour_Category>
+				<Tour_Type>EcoTourism</Tour_Type>
+				<Tour_City>Gothenberg</Tour_City>
+				<Tour_Country>Sweden</Tour_Country>
+				<Tour_Price currency='euros'>250.750</Tour_Price>
+				<Tour_Activities>Horticultural Gardens visit, Archielago visit</Tour_Activities>
+				<Tour_Details>4 days &amp; 3 nights</Tour_Details>
+			</Tour>
+		</Tour_Information>
+		<Accommodation_Information>
+			<Hotel id='GT2S'/>
+			<Hotel_Name>Ivory Gem Hotel</Hotel_Name>
+			<Hotel_City>Gothenberg</Hotel_City>
+			<Hotel_Country>Sweden</Hotel_Country>
+			<Hotel_Address>Sodra Hamngatan 59</Hotel_Address>
+			<Hotel_Zipcode>40124</Hotel_Zipcode>
+			<Hotel_RoomType>Suite</Hotel_RoomType>
+			<No_of_Rooms>1</No_of_Rooms>
+			<Hotel_Services>
+				<Meals_Included>Breakfast &amp; Dinner</Meals_Included>
+				<Gym_Included>true</Gym_Included>
+				<Spa_Included>true</Spa_Included>
+				<Events_Included>false</Events_Included>
+			</Hotel_Services>
+		</Accommodation_Information>
+		<Transport_Information>
+			<Flight_Info>
+				<FlightID>GT7871814522615</FlightID>
+				<From_City>Paris</From_City>
+				<To_City>Gothenberg</To_City>
+				<Connection>false</Connection>
+				<C_FlightID>not applicable</C_FlightID>
+				<C_From_City>not applicable</C_From_City>
+				<C_To_City>not applicable</C_To_City>
+				<AirlineName>AirFrance</AirlineName>
+			</Flight_Info>
+			<RentalCar>
+				<RentalType>Compact</RentalType>
+				<Brand>Nissan</Brand>
+				<Model>Sentra</Model>
+				<Seating>4</Seating>
+				<Duration>4 days</Duration>
+			</RentalCar>
+		</Transport_Information>
+	</Client_Data>
+	<Client_Data>
+		<Personal_Information>
+			<Client id='215009'>
+				<FirstName>Mark</FirstName>
+				<LastName>Andrews</LastName>
+				<Dateofbirth>1987-07-18</Dateofbirth>
+				<Nationality>French</Nationality>
+				<Age>35</Age>
+				<Gender>Male</Gender>
+				<Country>France</Country>
+				<State>Maine-et-Loire</State>
+				<City>Angers</City>
+				<Address>58 Rue Saint-Aubin</Address>
+				<Zipcode>49000</Zipcode>
+				<PhoneNumber>086-655-2638</PhoneNumber>
+				<EmailID>mark.andrews@outlook.com</EmailID>
+				<Comments>No additional comments</Comments>
+			</Client>
+		</Personal_Information>
+		<Booking_Information>
+			<Booking id='Ref-0109'/>
+			<Promo_Offer>false</Promo_Offer>
+			<Contract_signed>true</Contract_signed>
+			<Payment_details>Credit card
+
+				<Card_Brand>Mastercard</Card_Brand>
+				<Card_Number>6011723903201524</Card_Number>
+				<Amount_Paid currency='euros'>144.790</Amount_Paid>
+			</Payment_details>
+			<Additional_Info>
+				<Solo_Travel>false</Solo_Travel>
+				<Family_Travel>true
+
+					<No_of_Families>3</No_of_Families>
+					<Adult_Members>6</Adult_Members>
+					<Below12_Members>4</Below12_Members>
+					<Above60_Members>0</Above60_Members>
+				</Family_Travel>
+			</Additional_Info>
+		</Booking_Information>
+		<Tour_Information>
+			<Tour id='2148'>
+				<Tour_Category>International</Tour_Category>
+				<Tour_Type>EcoTourism</Tour_Type>
+				<Tour_City>Auckland</Tour_City>
+				<Tour_Country>New Zealand</Tour_Country>
+				<Tour_Price currency='euros'>635.950</Tour_Price>
+				<Tour_Activities>Paddling, Geothermal bath, Surfing</Tour_Activities>
+				<Tour_Details>7 days &amp; 6 nights</Tour_Details>
+			</Tour>
+		</Tour_Information>
+		<Accommodation_Information>
+			<Hotel id='CG3J'/>
+			<Hotel_Name>Seascape Hotel</Hotel_Name>
+			<Hotel_City>Auckland</Hotel_City>
+			<Hotel_Country>New Zealand</Hotel_Country>
+			<Hotel_Address>5 Waterloo Quadrant</Hotel_Address>
+			<Hotel_Zipcode>1010</Hotel_Zipcode>
+			<Hotel_RoomType>Double</Hotel_RoomType>
+			<No_of_Rooms>5</No_of_Rooms>
+			<Hotel_Services>
+				<Meals_Included>Breakfast</Meals_Included>
+				<Gym_Included>true</Gym_Included>
+				<Spa_Included>false</Spa_Included>
+				<Events_Included>true</Events_Included>
+			</Hotel_Services>
+		</Accommodation_Information>
+		<Transport_Information>
+			<Flight_Info>
+				<FlightID>PS318026433148</FlightID>
+				<From_City>Paris</From_City>
+				<To_City>Bangkok</To_City>
+				<Connection>true</Connection>
+				<C_FlightID>IT323ORKGI099</C_FlightID>
+				<C_From_City>Bangkok</C_From_City>
+				<C_To_City>Auckland</C_To_City>
+				<AirlineName>British Airways</AirlineName>
+			</Flight_Info>
+			<RentalCar>
+				<RentalType>Fullsize van</RentalType>
+				<Brand>Chevrolet</Brand>
+				<Model>Express</Model>
+				<Seating>16</Seating>
+				<Duration>7 days</Duration>
+			</RentalCar>
+		</Transport_Information>
+	</Client_Data>
+	<Client_Data>
+		<Personal_Information>
+			<Client id='215010'>
+				<FirstName>Zoya</FirstName>
+				<LastName>Jacobs</LastName>
+				<Dateofbirth>1995-01-25</Dateofbirth>
+				<Nationality>French</Nationality>
+				<Age>27</Age>
+				<Gender>Female</Gender>
+				<Country>France</Country>
+				<State>Drôme</State>
+				<City>Valence</City>
+				<Address>8 Rue Pasteur</Address>
+				<Zipcode>26000</Zipcode>
+				<PhoneNumber>096-848-4452</PhoneNumber>
+				<EmailID>greenlife_zoya@gmail.com</EmailID>
+				<Comments>No additional comments</Comments>
+			</Client>
+		</Personal_Information>
+		<Booking_Information>
+			<Booking id='Ref-0110'/>
+			<Promo_Offer>true</Promo_Offer>
+			<Contract_signed>true</Contract_signed>
+			<Payment_details>Credit card
+
+				<Card_Brand>Unionpay</Card_Brand>
+				<Card_Number>371825045861680</Card_Number>
+				<Amount_Paid currency='euros'>105.225</Amount_Paid>
+			</Payment_details>
+			<Additional_Info>
+				<Solo_Travel>true</Solo_Travel>
+				<Family_Travel>false
+
+					<No_of_Families>0</No_of_Families>
+					<Adult_Members>0</Adult_Members>
+					<Below12_Members>0</Below12_Members>
+					<Above60_Members>0</Above60_Members>
+				</Family_Travel>
+			</Additional_Info>
+		</Booking_Information>
+		<Tour_Information>
+			<Tour id='7096'>
+				<Tour_Category>Domestic</Tour_Category>
+				<Tour_Type>AdventureTourism</Tour_Type>
+				<Tour_City>Rennes</Tour_City>
+				<Tour_Country>France</Tour_Country>
+				<Tour_Price currency='euros'>215.750</Tour_Price>
+				<Tour_Activities>Wakeboarding, Surfing, Paragliding</Tour_Activities>
+				<Tour_Details>5 days &amp; 4 nights</Tour_Details>
+			</Tour>
+		</Tour_Information>
+		<Accommodation_Information>
+			<Hotel id='HK3T'/>
+			<Hotel_Name>Bronze Beach Hotel</Hotel_Name>
+			<Hotel_City>Rennes</Hotel_City>
+			<Hotel_Country>France</Hotel_Country>
+			<Hotel_Address>1 Rue Paul Louis</Hotel_Address>
+			<Hotel_Zipcode>35000</Hotel_Zipcode>
+			<Hotel_RoomType>Single</Hotel_RoomType>
+			<No_of_Rooms>1</No_of_Rooms>
+			<Hotel_Services>
+				<Meals_Included>Breakfast</Meals_Included>
+				<Gym_Included>true</Gym_Included>
+				<Spa_Included>true</Spa_Included>
+				<Events_Included>false</Events_Included>
+			</Hotel_Services>
+		</Accommodation_Information>
+		<Transport_Information>
+			<Flight_Info>
+				<FlightID>LU6836598642</FlightID>
+				<From_City>Lyon</From_City>
+				<To_City>Rennes</To_City>
+				<Connection>false</Connection>
+				<C_FlightID>not applicable</C_FlightID>
+				<C_From_City>not applicable</C_From_City>
+				<C_To_City>not applicable</C_To_City>
+				<AirlineName>RyanAir</AirlineName>
+			</Flight_Info>
+			<RentalCar>
+				<RentalType>Compact</RentalType>
+				<Brand>Toyota</Brand>
+				<Model>Yaris</Model>
+				<Seating>4</Seating>
+				<Duration>5 days</Duration>
+			</RentalCar>
+		</Transport_Information>
+	</Client_Data>
+	<Client_Data>
+		<Personal_Information>
+			<Client id='215011'>
+				<FirstName>William</FirstName>
+				<LastName>Hewitt</LastName>
+				<Dateofbirth>1976-12-22</Dateofbirth>
+				<Nationality>British</Nationality>
+				<Age>46</Age>
+				<Gender>Male</Gender>
+				<Country>France</Country>
+				<State>Puy-de-Dôme</State>
+				<City>Clermont-Ferrand</City>
+				<Address>305 Rue de l'Oradou</Address>
+				<Zipcode>63000</Zipcode>
+				<PhoneNumber>047-326-4473</PhoneNumber>
+				<EmailID>hewitt.william@google.org</EmailID>
+				<Comments>British National living in France with dual citizenship</Comments>
+			</Client>
+		</Personal_Information>
+		<Booking_Information>
+			<Booking id='Ref-0111'/>
+			<Promo_Offer>true</Promo_Offer>
+			<Contract_signed>true</Contract_signed>
+			<Payment_details>Credit card
+
+				<Card_Brand>Visa</Card_Brand>
+				<Card_Number>3562442214475574</Card_Number>
+				<Amount_Paid currency='euros'>189.980</Amount_Paid>
+			</Payment_details>
+			<Additional_Info>
+				<Solo_Travel>false</Solo_Travel>
+				<Family_Travel>true
+
+					<No_of_Families>2</No_of_Families>
+					<Adult_Members>4</Adult_Members>
+					<Below12_Members>2</Below12_Members>
+					<Above60_Members>2</Above60_Members>
+				</Family_Travel>
+			</Additional_Info>
+		</Booking_Information>
+		<Tour_Information>
+			<Tour id='9854'>
+				<Tour_Category>International</Tour_Category>
+				<Tour_Type>CulturalTourism</Tour_Type>
+				<Tour_City>San Francisco</Tour_City>
+				<Tour_Country>United States of America</Tour_Country>
+				<Tour_Price currency='euros'>978.650</Tour_Price>
+				<Tour_Activities>Sightseeing, Island Visit, Hiking</Tour_Activities>
+				<Tour_Details>7 days &amp; 6 nights</Tour_Details>
+			</Tour>
+		</Tour_Information>
+		<Accommodation_Information>
+			<Hotel id='LS9T'/>
+			<Hotel_Name>Golden Plaza Hotel</Hotel_Name>
+			<Hotel_City>San Francisco</Hotel_City>
+			<Hotel_Country>United States of America</Hotel_Country>
+			<Hotel_Address>80 Mission Street</Hotel_Address>
+			<Hotel_Zipcode>94111</Hotel_Zipcode>
+			<Hotel_RoomType>Deluxe</Hotel_RoomType>
+			<No_of_Rooms>4</No_of_Rooms>
+			<Hotel_Services>
+				<Meals_Included>Breakfast &amp;Dinner</Meals_Included>
+				<Gym_Included>true</Gym_Included>
+				<Spa_Included>false</Spa_Included>
+				<Events_Included>false</Events_Included>
+			</Hotel_Services>
+		</Accommodation_Information>
+		<Transport_Information>
+			<Flight_Info>
+				<FlightID>LK12378654384</FlightID>
+				<From_City>Paris</From_City>
+				<To_City>San Francisco</To_City>
+				<Connection>false</Connection>
+				<C_FlightID>not applicable</C_FlightID>
+				<C_From_City>not applicable</C_From_City>
+				<C_To_City>not applicable</C_To_City>
+				<AirlineName>AirFrance</AirlineName>
+			</Flight_Info>
+			<RentalCar>
+				<RentalType>Fullsize</RentalType>
+				<Brand>Chevrolet</Brand>
+				<Model>Impala</Model>
+				<Seating>10</Seating>
+				<Duration>7 days</Duration>
+			</RentalCar>
+		</Transport_Information>
+	</Client_Data>
+</Travel_Agency_Data>

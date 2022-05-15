@@ -1,0 +1,556 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Welcome10",
+    "definitions": {
+        "Welcome10": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "Travel_Agency_Data": {
+                    "$ref": "#/definitions/TravelAgencyData"
+                }
+            },
+            "required": [
+                "Travel_Agency_Data"
+            ],
+            "title": "Welcome10"
+        },
+        "TravelAgencyData": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "Client_Data": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/ClientDatum"
+                    }
+                },
+                "_xmlns:xs": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "http"
+                    ]
+                },
+                "_xs:noNamespaceSchemaLocation": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "Client_Data",
+                "_xmlns:xs",
+                "_xs:noNamespaceSchemaLocation"
+            ],
+            "title": "TravelAgencyData"
+        },
+        "ClientDatum": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "Personal_Information": {
+                    "$ref": "#/definitions/PersonalInformation"
+                },
+                "Booking_Information": {
+                    "$ref": "#/definitions/BookingInformation"
+                },
+                "Tour_Information": {
+                    "$ref": "#/definitions/TourInformation"
+                },
+                "Accommodation_Information": {
+                    "$ref": "#/definitions/AccommodationInformation"
+                },
+                "Transport_Information": {
+                    "$ref": "#/definitions/TransportInformation"
+                }
+            },
+            "required": [
+                "Accommodation_Information",
+                "Booking_Information",
+                "Personal_Information",
+                "Tour_Information",
+                "Transport_Information"
+            ],
+            "title": "ClientDatum"
+        },
+        "AccommodationInformation": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "Hotel": {
+                    "$ref": "#/definitions/Hotel"
+                },
+                "Hotel_Name": {
+                    "type": "string"
+                },
+                "Hotel_City": {
+                    "type": "string"
+                },
+                "Hotel_Country": {
+                    "type": "string"
+                },
+                "Hotel_Address": {
+                    "type": "string"
+                },
+                "Hotel_Zipcode": {
+                    "type": "string",
+                    "format": "integer"
+                },
+                "Hotel_RoomType": {
+                    "type": "string"
+                },
+                "No_of_Rooms": {
+                    "type": "string",
+                    "format": "integer"
+                },
+                "Hotel_Services": {
+                    "$ref": "#/definitions/HotelServices"
+                }
+            },
+            "required": [
+                "Hotel",
+                "Hotel_Address",
+                "Hotel_City",
+                "Hotel_Country",
+                "Hotel_Name",
+                "Hotel_RoomType",
+                "Hotel_Services",
+                "Hotel_Zipcode",
+                "No_of_Rooms"
+            ],
+            "title": "AccommodationInformation"
+        },
+        "Hotel": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "_id": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "_id"
+            ],
+            "title": "Hotel"
+        },
+        "HotelServices": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "Meals_Included": {
+                    "type": "string"
+                },
+                "Gym_Included": {
+                    "type": "string",
+                    "format": "boolean"
+                },
+                "Spa_Included": {
+                    "type": "string",
+                    "format": "boolean"
+                },
+                "Events_Included": {
+                    "type": "string",
+                    "format": "boolean"
+                }
+            },
+            "required": [
+                "Events_Included",
+                "Gym_Included",
+                "Meals_Included",
+                "Spa_Included"
+            ],
+            "title": "HotelServices"
+        },
+        "BookingInformation": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "Booking": {
+                    "$ref": "#/definitions/Hotel"
+                },
+                "Promo_Offer": {
+                    "type": "string",
+                    "format": "boolean"
+                },
+                "Contract_signed": {
+                    "type": "string",
+                    "format": "boolean"
+                },
+                "Payment_details": {
+                    "$ref": "#/definitions/PaymentDetails"
+                },
+                "Additional_Info": {
+                    "$ref": "#/definitions/AdditionalInfo"
+                }
+            },
+            "required": [
+                "Additional_Info",
+                "Booking",
+                "Contract_signed",
+                "Payment_details",
+                "Promo_Offer"
+            ],
+            "title": "BookingInformation"
+        },
+        "AdditionalInfo": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "Solo_Travel": {
+                    "type": "string",
+                    "format": "boolean"
+                },
+                "Family_Travel": {
+                    "$ref": "#/definitions/FamilyTravel"
+                }
+            },
+            "required": [
+                "Family_Travel",
+                "Solo_Travel"
+            ],
+            "title": "AdditionalInfo"
+        },
+        "FamilyTravel": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "No_of_Families": {
+                    "type": "string",
+                    "format": "integer"
+                },
+                "Adult_Members": {
+                    "type": "string",
+                    "format": "integer"
+                },
+                "Below12_Members": {
+                    "type": "string",
+                    "format": "integer"
+                },
+                "Above60_Members": {
+                    "type": "string",
+                    "format": "integer"
+                },
+                "__text": {
+                    "type": "string",
+                    "format": "boolean"
+                }
+            },
+            "required": [
+                "Above60_Members",
+                "Adult_Members",
+                "Below12_Members",
+                "No_of_Families",
+                "__text"
+            ],
+            "title": "FamilyTravel"
+        },
+        "PaymentDetails": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "Card_Brand": {
+                    "type": "string"
+                },
+                "Card_Number": {
+                    "type": "string"
+                },
+                "Amount_Paid": {
+                    "$ref": "#/definitions/AmountPaid"
+                },
+                "__text": {
+                    "$ref": "#/definitions/Text"
+                }
+            },
+            "required": [
+                "Amount_Paid",
+                "Card_Brand",
+                "Card_Number",
+                "__text"
+            ],
+            "title": "PaymentDetails"
+        },
+        "AmountPaid": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "_currency": {
+                    "$ref": "#/definitions/Currency"
+                },
+                "__text": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "__text",
+                "_currency"
+            ],
+            "title": "AmountPaid"
+        },
+        "PersonalInformation": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "Client": {
+                    "$ref": "#/definitions/Client"
+                }
+            },
+            "required": [
+                "Client"
+            ],
+            "title": "PersonalInformation"
+        },
+        "Client": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "FirstName": {
+                    "type": "string"
+                },
+                "LastName": {
+                    "type": "string"
+                },
+                "Dateofbirth": {
+                    "type": "string",
+                    "format": "date"
+                },
+                "Nationality": {
+                    "type": "string"
+                },
+                "Age": {
+                    "type": "string",
+                    "format": "integer"
+                },
+                "Gender": {
+                    "$ref": "#/definitions/Gender"
+                },
+                "Country": {
+                    "$ref": "#/definitions/Country"
+                },
+                "State": {
+                    "type": "string"
+                },
+                "City": {
+                    "type": "string"
+                },
+                "Address": {
+                    "type": "string"
+                },
+                "Zipcode": {
+                    "type": "string",
+                    "format": "integer"
+                },
+                "PhoneNumber": {
+                    "type": "string"
+                },
+                "EmailID": {
+                    "type": "string"
+                },
+                "Comments": {
+                    "type": "string"
+                },
+                "_id": {
+                    "type": "string",
+                    "format": "integer"
+                }
+            },
+            "required": [
+                "Address",
+                "Age",
+                "City",
+                "Comments",
+                "Country",
+                "Dateofbirth",
+                "EmailID",
+                "FirstName",
+                "Gender",
+                "LastName",
+                "Nationality",
+                "PhoneNumber",
+                "State",
+                "Zipcode",
+                "_id"
+            ],
+            "title": "Client"
+        },
+        "TourInformation": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "Tour": {
+                    "$ref": "#/definitions/Tour"
+                }
+            },
+            "required": [
+                "Tour"
+            ],
+            "title": "TourInformation"
+        },
+        "Tour": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "Tour_Category": {
+                    "$ref": "#/definitions/TourCategory"
+                },
+                "Tour_Type": {
+                    "type": "string"
+                },
+                "Tour_City": {
+                    "type": "string"
+                },
+                "Tour_Country": {
+                    "type": "string"
+                },
+                "Tour_Price": {
+                    "$ref": "#/definitions/AmountPaid"
+                },
+                "Tour_Activities": {
+                    "type": "string"
+                },
+                "Tour_Details": {
+                    "type": "string"
+                },
+                "_id": {
+                    "type": "string",
+                    "format": "integer"
+                }
+            },
+            "required": [
+                "Tour_Activities",
+                "Tour_Category",
+                "Tour_City",
+                "Tour_Country",
+                "Tour_Details",
+                "Tour_Price",
+                "Tour_Type",
+                "_id"
+            ],
+            "title": "Tour"
+        },
+        "TransportInformation": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "Flight_Info": {
+                    "$ref": "#/definitions/FlightInfo"
+                },
+                "RentalCar": {
+                    "$ref": "#/definitions/RentalCar"
+                }
+            },
+            "required": [
+                "Flight_Info",
+                "RentalCar"
+            ],
+            "title": "TransportInformation"
+        },
+        "FlightInfo": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "FlightID": {
+                    "type": "string"
+                },
+                "From_City": {
+                    "type": "string"
+                },
+                "To_City": {
+                    "type": "string"
+                },
+                "Connection": {
+                    "type": "string",
+                    "format": "boolean"
+                },
+                "C_FlightID": {
+                    "type": "string"
+                },
+                "C_From_City": {
+                    "type": "string"
+                },
+                "C_To_City": {
+                    "type": "string"
+                },
+                "AirlineName": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "AirlineName",
+                "C_FlightID",
+                "C_From_City",
+                "C_To_City",
+                "Connection",
+                "FlightID",
+                "From_City",
+                "To_City"
+            ],
+            "title": "FlightInfo"
+        },
+        "RentalCar": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "RentalType": {
+                    "type": "string"
+                },
+                "Brand": {
+                    "type": "string"
+                },
+                "Model": {
+                    "type": "string"
+                },
+                "Seating": {
+                    "type": "string",
+                    "format": "integer"
+                },
+                "Duration": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "Brand",
+                "Duration",
+                "Model",
+                "RentalType",
+                "Seating"
+            ],
+            "title": "RentalCar"
+        },
+        "Currency": {
+            "type": "string",
+            "enum": [
+                "euros"
+            ],
+            "title": "Currency"
+        },
+        "Text": {
+            "type": "string",
+            "enum": [
+                "Credit card"
+            ],
+            "title": "Text"
+        },
+        "Country": {
+            "type": "string",
+            "enum": [
+                "France"
+            ],
+            "title": "Country"
+        },
+        "Gender": {
+            "type": "string",
+            "enum": [
+                "Male",
+                "Female"
+            ],
+            "title": "Gender"
+        },
+        "TourCategory": {
+            "type": "string",
+            "enum": [
+                "Domestic",
+                "International"
+            ],
+            "title": "TourCategory"
+        }
+    }
+}
