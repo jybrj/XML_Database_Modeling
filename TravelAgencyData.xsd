@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:annotation>
+		<xs:documentation xml:lang="en">
+Database of Travel Insurance Company
+</xs:documentation>
+	</xs:annotation>
+	<xs:element name="Travel_Agency_Data" type="Travel_Agency_Data"/>
+	<xs:complexType name="Client">
+		<xs:sequence>
+			<xs:element name="FirstName" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="LastName" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Dateofbirth" type="xs:date" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Nationality" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Age" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Gender" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Country" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="State" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="City" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Address" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Zipcode" type="xs:integer" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="PhoneNumber" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="EmailID" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Comments" type="xs:string" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="Personal_Information">
+		<xs:sequence>
+			<xs:element name="Client" type="Client"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Booking">
+		<xs:sequence/>
+		<xs:attribute name="id" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="Amount_Paid">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="currency" type="xs:string"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType mixed="true" name="Payment_details">
+		<xs:sequence>
+			<xs:element name="Card_Brand" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Card_Number" type="xs:long" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Amount_Paid" type="Amount_Paid" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType mixed="true" name="Family_Travel">
+		<xs:sequence>
+			<xs:element name="No_of_Families" type="xs:integer" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Adult_Members" type="xs:integer" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Below12_Members" type="xs:integer" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Above60_Members" type="xs:integer" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Additional_Info">
+		<xs:sequence>
+			<xs:element name="Solo_Travel" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Family_Travel" type="Family_Travel"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Booking_Information">
+		<xs:sequence>
+			<xs:element name="Booking" type="Booking"/>
+			<xs:element name="Promo_Offer" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Contract_signed" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Payment_details" type="Payment_details"/>
+			<xs:element name="Additional_Info" type="Additional_Info"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Tour_Price">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="currency" type="xs:string"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="Tour">
+		<xs:sequence>
+			<xs:element name="Tour_Category" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Tour_Type" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Tour_City" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Tour_Country" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Tour_Price" type="Tour_Price" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Tour_Activities" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Tour_Details" type="xs:string" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="Tour_Information">
+		<xs:sequence>
+			<xs:element name="Tour" type="Tour"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Hotel">
+		<xs:sequence/>
+		<xs:attribute name="id" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="Hotel_Services">
+		<xs:sequence>
+			<xs:element name="Meals_Included" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Gym_Included" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Spa_Included" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Events_Included" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Accommodation_Information">
+		<xs:sequence>
+			<xs:element name="Hotel" type="Hotel"/>
+			<xs:element name="Hotel_Name" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Hotel_City" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Hotel_Country" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Hotel_Address" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Hotel_Zipcode" type="xs:integer" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Hotel_RoomType" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="No_of_Rooms" type="xs:byte"/>
+			<xs:element name="Hotel_Services" type="Hotel_Services" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Flight_Info">
+		<xs:sequence>
+			<xs:element name="FlightID" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="From_City" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="To_City" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Connection" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="C_FlightID" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="C_From_City" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="C_To_City" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="AirlineName" type="xs:string" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="RentalCar">
+		<xs:sequence>
+			<xs:element name="RentalType" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Brand" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Model" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Seating" type="xs:byte" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Duration" type="xs:string" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Transport_Information">
+		<xs:sequence>
+			<xs:element name="Flight_Info" type="Flight_Info"/>
+			<xs:element name="RentalCar" type="RentalCar"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Client_Data">
+		<xs:sequence>
+			<xs:element name="Personal_Information" type="Personal_Information" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="Booking_Information" type="Booking_Information" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="Tour_Information" type="Tour_Information" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="Accommodation_Information" type="Accommodation_Information" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="Transport_Information" type="Transport_Information" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Travel_Agency_Data">
+		<xs:sequence>
+			<xs:element name="Client_Data" type="Client_Data" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

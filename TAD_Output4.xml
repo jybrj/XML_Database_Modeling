@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<!--Created from Travel Agency Data by XSLT-->
+<?xml-stylesheet href="TAD_Output4_Transfo.xsl" type="text/xsl"?>
+<Client_Overview>
+	<!--Created from Travel Agency Data by XSLT-->
+	<Client_Info>
+		<Age>48</Age>
+		<Gender>Male</Gender>
+		<French_Nationality>No</French_Nationality>
+		<TourCategory>Domestic</TourCategory>
+		<TourType>BeachTourism</TourType>
+		<TourCity>Marseille</TourCity>
+		<HotelName>Seascape Hotel</HotelName>
+		<RoomType>Deluxe</RoomType>
+		<AirlinesName>RyanAir</AirlinesName>
+		<RentalCarName>ChevroletImpala</RentalCarName>
+	</Client_Info>
+	<Client_Info>
+		<Age>36</Age>
+		<Gender>Female</Gender>
+		<French_Nationality>Yes</French_Nationality>
+		<TourCategory>International</TourCategory>
+		<TourType>CulturalTourism</TourType>
+		<TourCity>Bogota</TourCity>
+		<HotelName>Atlantis Pyramid Resort</HotelName>
+		<RoomType>Double Room</RoomType>
+		<AirlinesName>AmericanAirlines</AirlinesName>
+		<RentalCarName>KiaSedona</RentalCarName>
+	</Client_Info>
+	<Client_Info>
+		<Age>55</Age>
+		<Gender>Male</Gender>
+		<French_Nationality>No</French_Nationality>
+		<TourCategory>International</TourCategory>
+		<TourType>EcoTourism</TourType>
+		<TourCity>Tromso</TourCity>
+		<HotelName>Majestic Mantle Hotel</HotelName>
+		<RoomType>Suite</RoomType>
+		<AirlinesName>Lufthansa Airlines</AirlinesName>
+		<RentalCarName>FordCrown</RentalCarName>
+	</Client_Info>
+	<Client_Info>
+		<Age>29</Age>
+		<Gender>Female</Gender>
+		<French_Nationality>No</French_Nationality>
+		<TourCategory>Domestic</TourCategory>
+		<TourType>AdventureTourism</TourType>
+		<TourCity>Grenoble</TourCity>
+		<HotelName>Pristine Hotel</HotelName>
+		<RoomType>Single</RoomType>
+		<AirlinesName>EasyJet</AirlinesName>
+		<RentalCarName>HyundaiAccent</RentalCarName>
+	</Client_Info>
+	<Client_Info>
+		<Age>45</Age>
+		<Gender>Female</Gender>
+		<French_Nationality>No</French_Nationality>
+		<TourCategory>International</TourCategory>
+		<TourType>CulturalTourism</TourType>
+		<TourCity>Mumbai</TourCity>
+		<HotelName>Best Exotic Marigold Hotel</HotelName>
+		<RoomType>Queen</RoomType>
+		<AirlinesName>AirIndia</AirlinesName>
+		<RentalCarName>ChevroletExpress</RentalCarName>
+	</Client_Info>
+	<Client_Info>
+		<Age>32</Age>
+		<Gender>Female</Gender>
+		<French_Nationality>No</French_Nationality>
+		<TourCategory>International</TourCategory>
+		<TourType>BeachTourism</TourType>
+		<TourCity>Bangkok</TourCity>
+		<HotelName>Sapphire Treasure Resort</HotelName>
+		<RoomType>Deluxe</RoomType>
+		<AirlinesName>Emirates</AirlinesName>
+		<RentalCarName>ToyotaCorolla</RentalCarName>
+	</Client_Info>
+	<Client_Info>
+		<Age>47</Age>
+		<Gender>Male</Gender>
+		<French_Nationality>Yes</French_Nationality>
+		<TourCategory>Domestic</TourCategory>
+		<TourType>BeachTourism</TourType>
+		<TourCity>Bastia</TourCity>
+		<HotelName>Emerald Peninsula Hotel</HotelName>
+		<RoomType>Single</RoomType>
+		<AirlinesName>GoAir</AirlinesName>
+		<RentalCarName>NissinVersa</RentalCarName>
+	</Client_Info>
+	<Client_Info>
+		<Age>39</Age>
+		<Gender>Female</Gender>
+		<French_Nationality>Yes</French_Nationality>
+		<TourCategory>International</TourCategory>
+		<TourType>CulturalTourism</TourType>
+		<TourCity>Seoul</TourCity>
+		<HotelName>Radiance Hotel</HotelName>
+		<RoomType>Deluxe</RoomType>
+		<AirlinesName>Etihad Airlines</AirlinesName>
+		<RentalCarName>FordTaurus</RentalCarName>
+	</Client_Info>
+	<Client_Info>
+		<Age>57</Age>
+		<Gender>Female</Gender>
+		<French_Nationality>No</French_Nationality>
+		<TourCategory>International</TourCategory>
+		<TourType>EcoTourism</TourType>
+		<TourCity>Gothenberg</TourCity>
+		<HotelName>Ivory Gem Hotel</HotelName>
+		<RoomType>Suite</RoomType>
+		<AirlinesName>AirFrance</AirlinesName>
+		<RentalCarName>NissanSentra</RentalCarName>
+	</Client_Info>
+	<Client_Info>
+		<Age>35</Age>
+		<Gender>Male</Gender>
+		<French_Nationality>Yes</French_Nationality>
+		<TourCategory>International</TourCategory>
+		<TourType>EcoTourism</TourType>
+		<TourCity>Auckland</TourCity>
+		<HotelName>Seascape Hotel</HotelName>
+		<RoomType>Double</RoomType>
+		<AirlinesName>British Airways</AirlinesName>
+		<RentalCarName>ChevroletExpress</RentalCarName>
+	</Client_Info>
+	<Client_Info>
+		<Age>27</Age>
+		<Gender>Female</Gender>
+		<French_Nationality>Yes</French_Nationality>
+		<TourCategory>Domestic</TourCategory>
+		<TourType>AdventureTourism</TourType>
+		<TourCity>Rennes</TourCity>
+		<HotelName>Bronze Beach Hotel</HotelName>
+		<RoomType>Single</RoomType>
+		<AirlinesName>RyanAir</AirlinesName>
+		<RentalCarName>ToyotaYaris</RentalCarName>
+	</Client_Info>
+	<Client_Info>
+		<Age>46</Age>
+		<Gender>Male</Gender>
+		<French_Nationality>No</French_Nationality>
+		<TourCategory>International</TourCategory>
+		<TourType>CulturalTourism</TourType>
+		<TourCity>San Francisco</TourCity>
+		<HotelName>Golden Plaza Hotel</HotelName>
+		<RoomType>Deluxe</RoomType>
+		<AirlinesName>AirFrance</AirlinesName>
+		<RentalCarName>ChevroletImpala</RentalCarName>
+	</Client_Info>
+</Client_Overview>

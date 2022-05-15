@@ -1,0 +1,99 @@
+{ "Client_Info": [
+
+{ "id": "21500",
+ "First_Name": "Brian",
+ "Last_Name": "Whittaker",
+ "Nationality": "British",
+ "CityRes": "Lyon"
+ "TourType": "BeachTourism"
+ }
+
+{ "id": "215001",
+ "First_Name": "Annika",
+ "Last_Name": "Terrel",
+ "Nationality": "French",
+ "CityRes": "Caluire-et-Cuire"
+ "TourType": "CulturalTourism"
+ }
+
+{ "id": "215002",
+ "First_Name": "Jason",
+ "Last_Name": "Smith",
+ "Nationality": "British",
+ "CityRes": "Aix-les-Bains"
+ "TourType": "EcoTourism"
+ }
+
+{ "id": "215003",
+ "First_Name": "Julie",
+ "Last_Name": "Copeland",
+ "Nationality": "Belgian",
+ "CityRes": "Lille"
+ "TourType": "AdventureTourism"
+ }
+
+{ "id": "215004",
+ "First_Name": "Sally",
+ "Last_Name": "Wright",
+ "Nationality": "British",
+ "CityRes": "Rouen"
+ "TourType": "CulturalTourism"
+ }
+
+{ "id": "215005",
+ "First_Name": "Candice",
+ "Last_Name": "Stanton",
+ "Nationality": "Dutch",
+ "CityRes": "Fontenay-sous-Bois"
+ "TourType": "BeachTourism"
+ }
+
+{ "id": "215006",
+ "First_Name": "Bernard",
+ "Last_Name": "Parks",
+ "Nationality": "French",
+ "CityRes": "Colmar"
+ "TourType": "BeachTourism"
+ }
+
+{ "id": "215007",
+ "First_Name": "Sasha",
+ "Last_Name": "Bradley",
+ "Nationality": "French",
+ "CityRes": "Strasbourg"
+ "TourType": "CulturalTourism"
+ }
+
+{ "id": "215008",
+ "First_Name": "Christine",
+ "Last_Name": "Pollock",
+ "Nationality": "Dutch",
+ "CityRes": "Limoges"
+ "TourType": "EcoTourism"
+ }
+
+{ "id": "215009",
+ "First_Name": "Mark",
+ "Last_Name": "Andrews",
+ "Nationality": "French",
+ "CityRes": "Angers"
+ "TourType": "EcoTourism"
+ }
+
+{ "id": "215010",
+ "First_Name": "Zoya",
+ "Last_Name": "Jacobs",
+ "Nationality": "French",
+ "CityRes": "Valence"
+ "TourType": "AdventureTourism"
+ }
+
+{ "id": "215011",
+ "First_Name": "William",
+ "Last_Name": "Hewitt",
+ "Nationality": "British",
+ "CityRes": "Clermont-Ferrand"
+ "TourType": "CulturalTourism"
+ }
+
+] }

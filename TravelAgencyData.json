@@ -1,0 +1,1196 @@
+{
+	"Travel_Agency_Data": {
+		"Client_Data": [
+			{
+				"Personal_Information": {
+					"Client": {
+						"FirstName": "Brian",
+						"LastName": "Whittaker",
+						"Dateofbirth": "1974-02-08",
+						"Nationality": "British",
+						"Age": "48",
+						"Gender": "Male",
+						"Country": "France",
+						"State": "Auvergne-Rhône-Alpes",
+						"City": "Lyon",
+						"Address": "108 Rue de Menilmontant",
+						"Zipcode": "69005",
+						"PhoneNumber": "086-655-2638",
+						"EmailID": "brian.whittaker@outlook.com",
+						"Comments": "British National living in France with dual citizenship",
+						"_id": "21500"
+					}
+				},
+				"Booking_Information": {
+					"Booking": {
+						"_id": "Ref-0100"
+					},
+					"Promo_Offer": "true",
+					"Contract_signed": "true",
+					"Payment_details": {
+						"Card_Brand": "Unionpay",
+						"Card_Number": "6256421728425451",
+						"Amount_Paid": {
+							"_currency": "euros",
+							"__text": "131.651"
+						},
+						"__text": "Credit card"
+					},
+					"Additional_Info": {
+						"Solo_Travel": "false",
+						"Family_Travel": {
+							"No_of_Families": "2",
+							"Adult_Members": "4",
+							"Below12_Members": "3",
+							"Above60_Members": "1",
+							"__text": "true"
+						}
+					}
+				},
+				"Tour_Information": {
+					"Tour": {
+						"Tour_Category": "Domestic",
+						"Tour_Type": "BeachTourism",
+						"Tour_City": "Marseille",
+						"Tour_Country": "France",
+						"Tour_Price": {
+							"_currency": "euros",
+							"__text": "335.750"
+						},
+						"Tour_Activities": "Scubadiving, Surfing, Paragliding",
+						"Tour_Details": "5 days & 6 nights",
+						"_id": "2149"
+					}
+				},
+				"Accommodation_Information": {
+					"Hotel": {
+						"_id": "FD2B"
+					},
+					"Hotel_Name": "Seascape Hotel",
+					"Hotel_City": "Marseille",
+					"Hotel_Country": "France",
+					"Hotel_Address": "35 Rue Turenne",
+					"Hotel_Zipcode": "13011",
+					"Hotel_RoomType": "Deluxe",
+					"No_of_Rooms": "3",
+					"Hotel_Services": {
+						"Meals_Included": "Breakfast",
+						"Gym_Included": "true",
+						"Spa_Included": "false",
+						"Events_Included": "false"
+					}
+				},
+				"Transport_Information": {
+					"Flight_Info": {
+						"FlightID": "AFF377459C8C",
+						"From_City": "Lyon",
+						"To_City": "Marseille",
+						"Connection": "false",
+						"C_FlightID": "not applicable",
+						"C_From_City": "not applicable",
+						"C_To_City": "not applicable",
+						"AirlineName": "RyanAir"
+					},
+					"RentalCar": {
+						"RentalType": "Fullsize",
+						"Brand": "Chevrolet",
+						"Model": "Impala",
+						"Seating": "10",
+						"Duration": "5 days"
+					}
+				}
+			},
+			{
+				"Personal_Information": {
+					"Client": {
+						"FirstName": "Annika",
+						"LastName": "Terrel",
+						"Dateofbirth": "1985-09-21",
+						"Nationality": "French",
+						"Age": "36",
+						"Gender": "Female",
+						"Country": "France",
+						"State": "Rhône",
+						"City": "Caluire-et-Cuire",
+						"Address": "10 Chemin Jean Petit",
+						"Zipcode": "69300",
+						"PhoneNumber": "029-863-5110",
+						"EmailID": "terrel.annika@gmail.com",
+						"Comments": "No additional comments",
+						"_id": "215001"
+					}
+				},
+				"Booking_Information": {
+					"Booking": {
+						"_id": "Ref-0101"
+					},
+					"Promo_Offer": "false",
+					"Contract_signed": "true",
+					"Payment_details": {
+						"Card_Brand": "Mastercard",
+						"Card_Number": "2149822516049850",
+						"Amount_Paid": {
+							"_currency": "euros",
+							"__text": "343.996"
+						},
+						"__text": "Credit card"
+					},
+					"Additional_Info": {
+						"Solo_Travel": "false",
+						"Family_Travel": {
+							"No_of_Families": "5",
+							"Adult_Members": "8",
+							"Below12_Members": "0",
+							"Above60_Members": "2",
+							"__text": "true"
+						}
+					}
+				},
+				"Tour_Information": {
+					"Tour": {
+						"Tour_Category": "International",
+						"Tour_Type": "CulturalTourism",
+						"Tour_City": "Bogota",
+						"Tour_Country": "Colombia",
+						"Tour_Price": {
+							"_currency": "euros",
+							"__text": "587.900"
+						},
+						"Tour_Activities": "Walking Tour, Sightseeing, Museum visit",
+						"Tour_Details": "7 days & 6 nights",
+						"_id": "6304"
+					}
+				},
+				"Accommodation_Information": {
+					"Hotel": {
+						"_id": "3D09"
+					},
+					"Hotel_Name": "Atlantis Pyramid Resort",
+					"Hotel_City": "Bogota",
+					"Hotel_Country": "Colombia",
+					"Hotel_Address": "Av Miguel Aleman 232",
+					"Hotel_Zipcode": "110151",
+					"Hotel_RoomType": "Double Room",
+					"No_of_Rooms": "5",
+					"Hotel_Services": {
+						"Meals_Included": "Breakfast & Weekend Buffet",
+						"Gym_Included": "false",
+						"Spa_Included": "false",
+						"Events_Included": "true"
+					}
+				},
+				"Transport_Information": {
+					"Flight_Info": {
+						"FlightID": "LV32XIEX13432",
+						"From_City": "Paris",
+						"To_City": "NewYork",
+						"Connection": "true",
+						"C_FlightID": "NO146887643",
+						"C_From_City": "NewYork",
+						"C_To_City": "Bogota",
+						"AirlineName": "AmericanAirlines"
+					},
+					"RentalCar": {
+						"RentalType": "Minivan",
+						"Brand": "Kia",
+						"Model": "Sedona",
+						"Seating": "16",
+						"Duration": "7 days"
+					}
+				}
+			},
+			{
+				"Personal_Information": {
+					"Client": {
+						"FirstName": "Jason",
+						"LastName": "Smith",
+						"Dateofbirth": "1967-11-12",
+						"Nationality": "British",
+						"Age": "55",
+						"Gender": "Male",
+						"Country": "France",
+						"State": "Savoie",
+						"City": "Aix-les-Bains",
+						"Address": "1 Avenue Charles de Gaulle",
+						"Zipcode": "73100",
+						"PhoneNumber": "047-961-6010",
+						"EmailID": "j.smith@outlook.com",
+						"Comments": "British Passport holder living in France",
+						"_id": "215002"
+					}
+				},
+				"Booking_Information": {
+					"Booking": {
+						"_id": "Ref-0102"
+					},
+					"Promo_Offer": "true",
+					"Contract_signed": "true",
+					"Payment_details": {
+						"Card_Brand": "Voyager",
+						"Card_Number": "8699641189618051",
+						"Amount_Paid": {
+							"_currency": "euros",
+							"__text": "150.325"
+						},
+						"__text": "Credit card"
+					},
+					"Additional_Info": {
+						"Solo_Travel": "false",
+						"Family_Travel": {
+							"No_of_Families": "1",
+							"Adult_Members": "2",
+							"Below12_Members": "0",
+							"Above60_Members": "0",
+							"__text": "true"
+						}
+					}
+				},
+				"Tour_Information": {
+					"Tour": {
+						"Tour_Category": "International",
+						"Tour_Type": "EcoTourism",
+						"Tour_City": "Tromso",
+						"Tour_Country": "Norway",
+						"Tour_Price": {
+							"_currency": "euros",
+							"__text": "405.880"
+						},
+						"Tour_Activities": "Northern Lights viewing, Arctic visit,Hiking",
+						"Tour_Details": "4 days & 5 nights",
+						"_id": "3278"
+					}
+				},
+				"Accommodation_Information": {
+					"Hotel": {
+						"_id": "BG06"
+					},
+					"Hotel_Name": "Majestic Mantle Hotel",
+					"Hotel_City": "Tromso",
+					"Hotel_Country": "Norway",
+					"Hotel_Address": "A Odhners gata 43",
+					"Hotel_Zipcode": "9021",
+					"Hotel_RoomType": "Suite",
+					"No_of_Rooms": "1",
+					"Hotel_Services": {
+						"Meals_Included": "Breakfast,Lunch & Dinner",
+						"Gym_Included": "true",
+						"Spa_Included": "true",
+						"Events_Included": "false"
+					}
+				},
+				"Transport_Information": {
+					"Flight_Info": {
+						"FlightID": "VG474172985",
+						"From_City": "Nice",
+						"To_City": "Stockholm",
+						"Connection": "true",
+						"C_FlightID": "FI93132175",
+						"C_From_City": "Stockholm",
+						"C_To_City": "Oslo",
+						"AirlineName": "Lufthansa Airlines"
+					},
+					"RentalCar": {
+						"RentalType": "Premium",
+						"Brand": "Ford",
+						"Model": "Crown",
+						"Seating": "6",
+						"Duration": "5 days"
+					}
+				}
+			},
+			{
+				"Personal_Information": {
+					"Client": {
+						"FirstName": "Julie",
+						"LastName": "Copeland",
+						"Dateofbirth": "1992-04-15",
+						"Nationality": "Belgian",
+						"Age": "29",
+						"Gender": "Female",
+						"Country": "France",
+						"State": "Nord",
+						"City": "Lille",
+						"Address": "30 Place Sebastopol",
+						"Zipcode": "59000",
+						"PhoneNumber": "073-391-2162",
+						"EmailID": "Juli_c92@yahoo.com",
+						"Comments": "Belgian Passport holder living in France",
+						"_id": "215003"
+					}
+				},
+				"Booking_Information": {
+					"Booking": {
+						"_id": "Ref-0103"
+					},
+					"Promo_Offer": "true",
+					"Contract_signed": "true",
+					"Payment_details": {
+						"Card_Brand": "AmericanExpress",
+						"Card_Number": "3549116202861338",
+						"Amount_Paid": {
+							"_currency": "euros",
+							"__text": "183.489"
+						},
+						"__text": "Credit card"
+					},
+					"Additional_Info": {
+						"Solo_Travel": "true",
+						"Family_Travel": {
+							"No_of_Families": "0",
+							"Adult_Members": "0",
+							"Below12_Members": "0",
+							"Above60_Members": "0",
+							"__text": "false"
+						}
+					}
+				},
+				"Tour_Information": {
+					"Tour": {
+						"Tour_Category": "Domestic",
+						"Tour_Type": "AdventureTourism",
+						"Tour_City": "Grenoble",
+						"Tour_Country": "France",
+						"Tour_Price": {
+							"_currency": "euros",
+							"__text": "267.840"
+						},
+						"Tour_Activities": "Via Ferreta, Mountain Climbing, Canyoning",
+						"Tour_Details": "3 days & 2 nights",
+						"_id": "2641"
+					}
+				},
+				"Accommodation_Information": {
+					"Hotel": {
+						"_id": "HP7C"
+					},
+					"Hotel_Name": "Pristine Hotel",
+					"Hotel_City": "Grenoble",
+					"Hotel_Country": "France",
+					"Hotel_Address": "10 Boulevard Gambetta",
+					"Hotel_Zipcode": "38000",
+					"Hotel_RoomType": "Single",
+					"No_of_Rooms": "1",
+					"Hotel_Services": {
+						"Meals_Included": "Breakfast",
+						"Gym_Included": "true",
+						"Spa_Included": "false",
+						"Events_Included": "false"
+					}
+				},
+				"Transport_Information": {
+					"Flight_Info": {
+						"FlightID": "GL311964183",
+						"From_City": "Lille",
+						"To_City": "Lyon",
+						"Connection": "false",
+						"C_FlightID": "not applicable",
+						"C_From_City": "not applicable",
+						"C_To_City": "not applicable",
+						"AirlineName": "EasyJet"
+					},
+					"RentalCar": {
+						"RentalType": "Economy",
+						"Brand": "Hyundai",
+						"Model": "Accent",
+						"Seating": "4",
+						"Duration": "2 days"
+					}
+				}
+			},
+			{
+				"Personal_Information": {
+					"Client": {
+						"FirstName": "Sally",
+						"LastName": "Wright",
+						"Dateofbirth": "1977-03-18",
+						"Nationality": "British",
+						"Age": "45",
+						"Gender": "Female",
+						"Country": "France",
+						"State": "Seine-Maritime",
+						"City": "Rouen",
+						"Address": "6 Rue du Lion d'Or",
+						"Zipcode": "76000",
+						"PhoneNumber": "046-865-8976",
+						"EmailID": "s.wright@outlook.com",
+						"Comments": "British Passport holder living in France",
+						"_id": "215004"
+					}
+				},
+				"Booking_Information": {
+					"Booking": {
+						"_id": "Ref-0104"
+					},
+					"Promo_Offer": "false",
+					"Contract_signed": "true",
+					"Payment_details": {
+						"Card_Brand": "Visa",
+						"Card_Number": "4532649361045399",
+						"Amount_Paid": {
+							"_currency": "euros",
+							"__text": "192.141"
+						},
+						"__text": "Credit card"
+					},
+					"Additional_Info": {
+						"Solo_Travel": "false",
+						"Family_Travel": {
+							"No_of_Families": "3",
+							"Adult_Members": "5",
+							"Below12_Members": "2",
+							"Above60_Members": "4",
+							"__text": "true"
+						}
+					}
+				},
+				"Tour_Information": {
+					"Tour": {
+						"Tour_Category": "International",
+						"Tour_Type": "CulturalTourism",
+						"Tour_City": "Mumbai",
+						"Tour_Country": "India",
+						"Tour_Price": {
+							"_currency": "euros",
+							"__text": "890.345"
+						},
+						"Tour_Activities": "Sightseeing, Museum Visit, Food Tour",
+						"Tour_Details": "7 days & 8 nights",
+						"_id": "6418"
+					}
+				},
+				"Accommodation_Information": {
+					"Hotel": {
+						"_id": "KW28"
+					},
+					"Hotel_Name": "Best Exotic Marigold Hotel",
+					"Hotel_City": "Mumbai",
+					"Hotel_Country": "India",
+					"Hotel_Address": "42 Carter Road",
+					"Hotel_Zipcode": "40050",
+					"Hotel_RoomType": "Queen",
+					"No_of_Rooms": "4",
+					"Hotel_Services": {
+						"Meals_Included": "Breakfast& Dinner",
+						"Gym_Included": "true",
+						"Spa_Included": "true",
+						"Events_Included": "true"
+					}
+				},
+				"Transport_Information": {
+					"Flight_Info": {
+						"FlightID": "BH58567733613",
+						"From_City": "Paris",
+						"To_City": "Dubai",
+						"Connection": "true",
+						"C_FlightID": "DE87268526222",
+						"C_From_City": "Dubai",
+						"C_To_City": "Mumbai",
+						"AirlineName": "AirIndia"
+					},
+					"RentalCar": {
+						"RentalType": "Fullsizevan",
+						"Brand": "Chevrolet",
+						"Model": "Express",
+						"Seating": "12",
+						"Duration": "7 days"
+					}
+				}
+			},
+			{
+				"Personal_Information": {
+					"Client": {
+						"FirstName": "Candice",
+						"LastName": "Stanton",
+						"Dateofbirth": "1990-03-09",
+						"Nationality": "Dutch",
+						"Age": "32",
+						"Gender": "Female",
+						"Country": "France",
+						"State": "Val-de-Marne",
+						"City": "Fontenay-sous-Bois",
+						"Address": "25 Place Moreau David",
+						"Zipcode": "94120",
+						"PhoneNumber": "084-161-5874",
+						"EmailID": "s.candice@gmail.com",
+						"Comments": "Dutch Passport holder living in France",
+						"_id": "215005"
+					}
+				},
+				"Booking_Information": {
+					"Booking": {
+						"_id": "Ref-0105"
+					},
+					"Promo_Offer": "true",
+					"Contract_signed": "true",
+					"Payment_details": {
+						"Card_Brand": "Mastercard",
+						"Card_Number": "5537094026953947",
+						"Amount_Paid": {
+							"_currency": "euros",
+							"__text": "176.127"
+						},
+						"__text": "Credit card"
+					},
+					"Additional_Info": {
+						"Solo_Travel": "false",
+						"Family_Travel": {
+							"No_of_Families": "1",
+							"Adult_Members": "2",
+							"Below12_Members": "2",
+							"Above60_Members": "0",
+							"__text": "true"
+						}
+					}
+				},
+				"Tour_Information": {
+					"Tour": {
+						"Tour_Category": "International",
+						"Tour_Type": "BeachTourism",
+						"Tour_City": "Bangkok",
+						"Tour_Country": "Thailand",
+						"Tour_Price": {
+							"_currency": "euros",
+							"__text": "567.125"
+						},
+						"Tour_Activities": "Island Hopping, Scubadiving, Cave kayaking",
+						"Tour_Details": "10 days & 11 nights",
+						"_id": "7654"
+					}
+				},
+				"Accommodation_Information": {
+					"Hotel": {
+						"_id": "NM7J"
+					},
+					"Hotel_Name": "Sapphire Treasure Resort",
+					"Hotel_City": "Bangkok",
+					"Hotel_Country": "Thailand",
+					"Hotel_Address": "106 North Sathorn Road",
+					"Hotel_Zipcode": "10500",
+					"Hotel_RoomType": "Deluxe",
+					"No_of_Rooms": "2",
+					"Hotel_Services": {
+						"Meals_Included": "Breakfast",
+						"Gym_Included": "true",
+						"Spa_Included": "true",
+						"Events_Included": "true"
+					}
+				},
+				"Transport_Information": {
+					"Flight_Info": {
+						"FlightID": "AD092757318179",
+						"From_City": "Lyon",
+						"To_City": "Abu Dhabi",
+						"Connection": "true",
+						"C_FlightID": "AE703838886532",
+						"C_From_City": "Abu Dhabi",
+						"C_To_City": "Bangkok",
+						"AirlineName": "Emirates"
+					},
+					"RentalCar": {
+						"RentalType": "SUV",
+						"Brand": "Toyota",
+						"Model": "Corolla",
+						"Seating": "6",
+						"Duration": "10 days"
+					}
+				}
+			},
+			{
+				"Personal_Information": {
+					"Client": {
+						"FirstName": "Bernard",
+						"LastName": "Parks",
+						"Dateofbirth": "1975-05-20",
+						"Nationality": "French",
+						"Age": "47",
+						"Gender": "Male",
+						"Country": "France",
+						"State": "Haut-Rhin",
+						"City": "Colmar",
+						"Address": "33 Route de Strasbourg",
+						"Zipcode": "68000",
+						"PhoneNumber": "089-170-5226",
+						"EmailID": "natpark.b@yahoo.com",
+						"Comments": "No additional comments",
+						"_id": "215006"
+					}
+				},
+				"Booking_Information": {
+					"Booking": {
+						"_id": "Ref-0106"
+					},
+					"Promo_Offer": "true",
+					"Contract_signed": "true",
+					"Payment_details": {
+						"Card_Brand": "Voyager",
+						"Card_Number": "8699989102866426",
+						"Amount_Paid": {
+							"_currency": "euros",
+							"__text": "156.716"
+						},
+						"__text": "Credit card"
+					},
+					"Additional_Info": {
+						"Solo_Travel": "true",
+						"Family_Travel": {
+							"No_of_Families": "0",
+							"Adult_Members": "0",
+							"Below12_Members": "0",
+							"Above60_Members": "0",
+							"__text": "false"
+						}
+					}
+				},
+				"Tour_Information": {
+					"Tour": {
+						"Tour_Category": "Domestic",
+						"Tour_Type": "BeachTourism",
+						"Tour_City": "Bastia",
+						"Tour_Country": "France",
+						"Tour_Price": {
+							"_currency": "euros",
+							"__text": "323.450"
+						},
+						"Tour_Activities": "Sightseeing, Diving, Swimming",
+						"Tour_Details": "7 days & 6 nights",
+						"_id": "5983"
+					}
+				},
+				"Accommodation_Information": {
+					"Hotel": {
+						"_id": "BN7K"
+					},
+					"Hotel_Name": "Emerald Peninsula Hotel",
+					"Hotel_City": "Bastia",
+					"Hotel_Country": "France",
+					"Hotel_Address": "Route d'Ortale",
+					"Hotel_Zipcode": "20600",
+					"Hotel_RoomType": "Single",
+					"No_of_Rooms": "1",
+					"Hotel_Services": {
+						"Meals_Included": "Breakfast, Lunch & Dinner",
+						"Gym_Included": "true",
+						"Spa_Included": "true",
+						"Events_Included": "false"
+					}
+				},
+				"Transport_Information": {
+					"Flight_Info": {
+						"FlightID": "MC916363716274",
+						"From_City": "Strasbourg",
+						"To_City": "Bastia",
+						"Connection": "false",
+						"C_FlightID": "not applicable",
+						"C_From_City": "not applicable",
+						"C_To_City": "not applicable",
+						"AirlineName": "GoAir"
+					},
+					"RentalCar": {
+						"RentalType": "Compact",
+						"Brand": "Nissin",
+						"Model": "Versa",
+						"Seating": "4",
+						"Duration": "6 days"
+					}
+				}
+			},
+			{
+				"Personal_Information": {
+					"Client": {
+						"FirstName": "Sasha",
+						"LastName": "Bradley",
+						"Dateofbirth": "1984-10-17",
+						"Nationality": "French",
+						"Age": "39",
+						"Gender": "Female",
+						"Country": "France",
+						"State": "Bas-Rhin",
+						"City": "Strasbourg",
+						"Address": "7 Rue Finkmatt",
+						"Zipcode": "67000",
+						"PhoneNumber": "038-815-2788",
+						"EmailID": "b.sasha@gmail.com",
+						"Comments": "No additional comments",
+						"_id": "215007"
+					}
+				},
+				"Booking_Information": {
+					"Booking": {
+						"_id": "Ref-0107"
+					},
+					"Promo_Offer": "true",
+					"Contract_signed": "true",
+					"Payment_details": {
+						"Card_Brand": "American Express",
+						"Card_Number": "6269153980813067",
+						"Amount_Paid": {
+							"_currency": "euros",
+							"__text": "205.815"
+						},
+						"__text": "Credit card"
+					},
+					"Additional_Info": {
+						"Solo_Travel": "false",
+						"Family_Travel": {
+							"No_of_Families": "2",
+							"Adult_Members": "4",
+							"Below12_Members": "3",
+							"Above60_Members": "0",
+							"__text": "true"
+						}
+					}
+				},
+				"Tour_Information": {
+					"Tour": {
+						"Tour_Category": "International",
+						"Tour_Type": "CulturalTourism",
+						"Tour_City": "Seoul",
+						"Tour_Country": "South Korea",
+						"Tour_Price": {
+							"_currency": "euros",
+							"__text": "545.725"
+						},
+						"Tour_Activities": "Sightseeing, Private Hiking, Street Food Tour",
+						"Tour_Details": "6 days & 7 nights",
+						"_id": "9712"
+					}
+				},
+				"Accommodation_Information": {
+					"Hotel": {
+						"_id": "KS4M"
+					},
+					"Hotel_Name": "Radiance Hotel",
+					"Hotel_City": "Seoul",
+					"Hotel_Country": "South Korea",
+					"Hotel_Address": "16 Myeong-dong",
+					"Hotel_Zipcode": "100101",
+					"Hotel_RoomType": "Deluxe",
+					"No_of_Rooms": "3",
+					"Hotel_Services": {
+						"Meals_Included": "Breakfast",
+						"Gym_Included": "true",
+						"Spa_Included": "false",
+						"Events_Included": "true"
+					}
+				},
+				"Transport_Information": {
+					"Flight_Info": {
+						"FlightID": "TR817526598937",
+						"From_City": "Paris",
+						"To_City": "Moscow",
+						"Connection": "true",
+						"C_FlightID": "SA12166626756127",
+						"C_From_City": "Moscow",
+						"C_To_City": "Seoul",
+						"AirlineName": "Etihad Airlines"
+					},
+					"RentalCar": {
+						"RentalType": "Premium",
+						"Brand": "Ford",
+						"Model": "Taurus",
+						"Seating": "10",
+						"Duration": "6 days"
+					}
+				}
+			},
+			{
+				"Personal_Information": {
+					"Client": {
+						"FirstName": "Christine",
+						"LastName": "Pollock",
+						"Dateofbirth": "1965-08-30",
+						"Nationality": "Dutch",
+						"Age": "57",
+						"Gender": "Female",
+						"Country": "France",
+						"State": "Haute-Vienne",
+						"City": "Limoges",
+						"Address": "79 Avenue Louis Armand",
+						"Zipcode": "87000",
+						"PhoneNumber": "055-504-4848",
+						"EmailID": "pollock.c@gmail.com",
+						"Comments": "Dutch Passport holder living in France",
+						"_id": "215008"
+					}
+				},
+				"Booking_Information": {
+					"Booking": {
+						"_id": "Ref-0108"
+					},
+					"Promo_Offer": "true",
+					"Contract_signed": "true",
+					"Payment_details": {
+						"Card_Brand": "Visa",
+						"Card_Number": "3003163500848053",
+						"Amount_Paid": {
+							"_currency": "euros",
+							"__text": "116.980"
+						},
+						"__text": "Credit card"
+					},
+					"Additional_Info": {
+						"Solo_Travel": "false",
+						"Family_Travel": {
+							"No_of_Families": "1",
+							"Adult_Members": "2",
+							"Below12_Members": "0",
+							"Above60_Members": "0",
+							"__text": "true"
+						}
+					}
+				},
+				"Tour_Information": {
+					"Tour": {
+						"Tour_Category": "International",
+						"Tour_Type": "EcoTourism",
+						"Tour_City": "Gothenberg",
+						"Tour_Country": "Sweden",
+						"Tour_Price": {
+							"_currency": "euros",
+							"__text": "250.750"
+						},
+						"Tour_Activities": "Horticultural Gardens visit, Archielago visit",
+						"Tour_Details": "4 days & 3 nights",
+						"_id": "8765"
+					}
+				},
+				"Accommodation_Information": {
+					"Hotel": {
+						"_id": "GT2S"
+					},
+					"Hotel_Name": "Ivory Gem Hotel",
+					"Hotel_City": "Gothenberg",
+					"Hotel_Country": "Sweden",
+					"Hotel_Address": "Sodra Hamngatan 59",
+					"Hotel_Zipcode": "40124",
+					"Hotel_RoomType": "Suite",
+					"No_of_Rooms": "1",
+					"Hotel_Services": {
+						"Meals_Included": "Breakfast & Dinner",
+						"Gym_Included": "true",
+						"Spa_Included": "true",
+						"Events_Included": "false"
+					}
+				},
+				"Transport_Information": {
+					"Flight_Info": {
+						"FlightID": "GT7871814522615",
+						"From_City": "Paris",
+						"To_City": "Gothenberg",
+						"Connection": "false",
+						"C_FlightID": "not applicable",
+						"C_From_City": "not applicable",
+						"C_To_City": "not applicable",
+						"AirlineName": "AirFrance"
+					},
+					"RentalCar": {
+						"RentalType": "Compact",
+						"Brand": "Nissan",
+						"Model": "Sentra",
+						"Seating": "4",
+						"Duration": "4 days"
+					}
+				}
+			},
+			{
+				"Personal_Information": {
+					"Client": {
+						"FirstName": "Mark",
+						"LastName": "Andrews",
+						"Dateofbirth": "1987-07-18",
+						"Nationality": "French",
+						"Age": "35",
+						"Gender": "Male",
+						"Country": "France",
+						"State": "Maine-et-Loire",
+						"City": "Angers",
+						"Address": "58 Rue Saint-Aubin",
+						"Zipcode": "49000",
+						"PhoneNumber": "086-655-2638",
+						"EmailID": "mark.andrews@outlook.com",
+						"Comments": "No additional comments",
+						"_id": "215009"
+					}
+				},
+				"Booking_Information": {
+					"Booking": {
+						"_id": "Ref-0109"
+					},
+					"Promo_Offer": "false",
+					"Contract_signed": "true",
+					"Payment_details": {
+						"Card_Brand": "Mastercard",
+						"Card_Number": "6011723903201524",
+						"Amount_Paid": {
+							"_currency": "euros",
+							"__text": "144.790"
+						},
+						"__text": "Credit card"
+					},
+					"Additional_Info": {
+						"Solo_Travel": "false",
+						"Family_Travel": {
+							"No_of_Families": "3",
+							"Adult_Members": "6",
+							"Below12_Members": "4",
+							"Above60_Members": "0",
+							"__text": "true"
+						}
+					}
+				},
+				"Tour_Information": {
+					"Tour": {
+						"Tour_Category": "International",
+						"Tour_Type": "EcoTourism",
+						"Tour_City": "Auckland",
+						"Tour_Country": "New Zealand",
+						"Tour_Price": {
+							"_currency": "euros",
+							"__text": "635.950"
+						},
+						"Tour_Activities": "Paddling, Geothermal bath, Surfing",
+						"Tour_Details": "7 days & 6 nights",
+						"_id": "2148"
+					}
+				},
+				"Accommodation_Information": {
+					"Hotel": {
+						"_id": "CG3J"
+					},
+					"Hotel_Name": "Seascape Hotel",
+					"Hotel_City": "Auckland",
+					"Hotel_Country": "New Zealand",
+					"Hotel_Address": "5 Waterloo Quadrant",
+					"Hotel_Zipcode": "1010",
+					"Hotel_RoomType": "Double",
+					"No_of_Rooms": "5",
+					"Hotel_Services": {
+						"Meals_Included": "Breakfast",
+						"Gym_Included": "true",
+						"Spa_Included": "false",
+						"Events_Included": "true"
+					}
+				},
+				"Transport_Information": {
+					"Flight_Info": {
+						"FlightID": "PS318026433148",
+						"From_City": "Paris",
+						"To_City": "Bangkok",
+						"Connection": "true",
+						"C_FlightID": "IT323ORKGI099",
+						"C_From_City": "Bangkok",
+						"C_To_City": "Auckland",
+						"AirlineName": "British Airways"
+					},
+					"RentalCar": {
+						"RentalType": "Fullsize van",
+						"Brand": "Chevrolet",
+						"Model": "Express",
+						"Seating": "16",
+						"Duration": "7 days"
+					}
+				}
+			},
+			{
+				"Personal_Information": {
+					"Client": {
+						"FirstName": "Zoya",
+						"LastName": "Jacobs",
+						"Dateofbirth": "1995-01-25",
+						"Nationality": "French",
+						"Age": "27",
+						"Gender": "Female",
+						"Country": "France",
+						"State": "Drôme",
+						"City": "Valence",
+						"Address": "8 Rue Pasteur",
+						"Zipcode": "26000",
+						"PhoneNumber": "096-848-4452",
+						"EmailID": "greenlife_zoya@gmail.com",
+						"Comments": "No additional comments",
+						"_id": "215010"
+					}
+				},
+				"Booking_Information": {
+					"Booking": {
+						"_id": "Ref-0110"
+					},
+					"Promo_Offer": "true",
+					"Contract_signed": "true",
+					"Payment_details": {
+						"Card_Brand": "Unionpay",
+						"Card_Number": "371825045861680",
+						"Amount_Paid": {
+							"_currency": "euros",
+							"__text": "105.225"
+						},
+						"__text": "Credit card"
+					},
+					"Additional_Info": {
+						"Solo_Travel": "true",
+						"Family_Travel": {
+							"No_of_Families": "0",
+							"Adult_Members": "0",
+							"Below12_Members": "0",
+							"Above60_Members": "0",
+							"__text": "false"
+						}
+					}
+				},
+				"Tour_Information": {
+					"Tour": {
+						"Tour_Category": "Domestic",
+						"Tour_Type": "AdventureTourism",
+						"Tour_City": "Rennes",
+						"Tour_Country": "France",
+						"Tour_Price": {
+							"_currency": "euros",
+							"__text": "215.750"
+						},
+						"Tour_Activities": "Wakeboarding, Surfing, Paragliding",
+						"Tour_Details": "5 days & 4 nights",
+						"_id": "7096"
+					}
+				},
+				"Accommodation_Information": {
+					"Hotel": {
+						"_id": "HK3T"
+					},
+					"Hotel_Name": "Bronze Beach Hotel",
+					"Hotel_City": "Rennes",
+					"Hotel_Country": "France",
+					"Hotel_Address": "1 Rue Paul Louis",
+					"Hotel_Zipcode": "35000",
+					"Hotel_RoomType": "Single",
+					"No_of_Rooms": "1",
+					"Hotel_Services": {
+						"Meals_Included": "Breakfast",
+						"Gym_Included": "true",
+						"Spa_Included": "true",
+						"Events_Included": "false"
+					}
+				},
+				"Transport_Information": {
+					"Flight_Info": {
+						"FlightID": "LU6836598642",
+						"From_City": "Lyon",
+						"To_City": "Rennes",
+						"Connection": "false",
+						"C_FlightID": "not applicable",
+						"C_From_City": "not applicable",
+						"C_To_City": "not applicable",
+						"AirlineName": "RyanAir"
+					},
+					"RentalCar": {
+						"RentalType": "Compact",
+						"Brand": "Toyota",
+						"Model": "Yaris",
+						"Seating": "4",
+						"Duration": "5 days"
+					}
+				}
+			},
+			{
+				"Personal_Information": {
+					"Client": {
+						"FirstName": "William",
+						"LastName": "Hewitt",
+						"Dateofbirth": "1976-12-22",
+						"Nationality": "British",
+						"Age": "46",
+						"Gender": "Male",
+						"Country": "France",
+						"State": "Puy-de-Dôme",
+						"City": "Clermont-Ferrand",
+						"Address": "305 Rue de l'Oradou",
+						"Zipcode": "63000",
+						"PhoneNumber": "047-326-4473",
+						"EmailID": "hewitt.william@google.org",
+						"Comments": "British National living in France with dual citizenship",
+						"_id": "215011"
+					}
+				},
+				"Booking_Information": {
+					"Booking": {
+						"_id": "Ref-0111"
+					},
+					"Promo_Offer": "true",
+					"Contract_signed": "true",
+					"Payment_details": {
+						"Card_Brand": "Visa",
+						"Card_Number": "3562442214475574",
+						"Amount_Paid": {
+							"_currency": "euros",
+							"__text": "189.980"
+						},
+						"__text": "Credit card"
+					},
+					"Additional_Info": {
+						"Solo_Travel": "false",
+						"Family_Travel": {
+							"No_of_Families": "2",
+							"Adult_Members": "4",
+							"Below12_Members": "2",
+							"Above60_Members": "2",
+							"__text": "true"
+						}
+					}
+				},
+				"Tour_Information": {
+					"Tour": {
+						"Tour_Category": "International",
+						"Tour_Type": "CulturalTourism",
+						"Tour_City": "San Francisco",
+						"Tour_Country": "United States of America",
+						"Tour_Price": {
+							"_currency": "euros",
+							"__text": "578.650"
+						},
+						"Tour_Activities": "Sightseeing, Island Visit, Hiking",
+						"Tour_Details": "7 days & 6 nights",
+						"_id": "9854"
+					}
+				},
+				"Accommodation_Information": {
+					"Hotel": {
+						"_id": "LS9T"
+					},
+					"Hotel_Name": "Golden Plaza Hotel",
+					"Hotel_City": "San Francisco",
+					"Hotel_Country": "United States of America",
+					"Hotel_Address": "80 Mission Street",
+					"Hotel_Zipcode": "94111",
+					"Hotel_RoomType": "Deluxe",
+					"No_of_Rooms": "4",
+					"Hotel_Services": {
+						"Meals_Included": "Breakfast &Dinner",
+						"Gym_Included": "true",
+						"Spa_Included": "false",
+						"Events_Included": "false"
+					}
+				},
+				"Transport_Information": {
+					"Flight_Info": {
+						"FlightID": "LK12378654384",
+						"From_City": "Paris",
+						"To_City": "San Francisco",
+						"Connection": "false",
+						"C_FlightID": "not applicable",
+						"C_From_City": "not applicable",
+						"C_To_City": "not applicable",
+						"AirlineName": "AirFrance"
+					},
+					"RentalCar": {
+						"RentalType": "Fullsize",
+						"Brand": "Chevrolet",
+						"Model": "Impala",
+						"Seating": "10",
+						"Duration": "7 days"
+					}
+				}
+			}
+		],
+		"_xmlns:xs": "http://www.w3.org/2001/XMLSchema-instance",
+		"_xs:noNamespaceSchemaLocation": "TravelAgencyData.xsd"
+	}
+}
